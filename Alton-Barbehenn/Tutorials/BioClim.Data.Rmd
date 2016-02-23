@@ -66,5 +66,3 @@ This data can be used in the normal way. For example, we can produce a histogram
 hist(bio9_location_data)
 ```
 
-
-#Test
