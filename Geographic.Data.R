@@ -126,10 +126,3 @@ species_bio <- extract (bios, Rivina_poly)
 
 #this does means instead (it works #blessed #ijustdidahappydancearoundthelab)
 range_bio <- extract(bios,Rivina_poly, fun='mean', na.rm=TRUE) 
-#######
-
-
-#for etc etc for a species extracting data from each bioclim layer
-#use points instead of vector to make a map
-
-####ONCE THAT WORKS ITS TIME TO MAKE A FUNCTION/FOR ALL SPECIES!!!!##########
