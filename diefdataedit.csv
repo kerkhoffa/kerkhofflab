@@ -1,0 +1,564 @@
+reference,growthform,leafhabit,phylogeny,Family,Species,treesmeasured,delta13C,delta13Cair,delta13CairA,deltaleaf,locationmean,latitudeE,longitudeN,location,continent,altitude,MAP,P-JJA,MAT,T-JJA,VPD,PET,percentsun,Continentality,frostfreedays,BiomeK,BiomeL
+Chevillat et al. (4),Tree,E,G ,Pinaceae,Abies_alba,1,-27.66,-7.98,E,20.24,19.56,47.47,7.5,"Basel, Switzerland",EU,550,795,362.04,9.8,17.9,6.82,599,31.7,21.6,20,CCMF,CCF
+Chevillat et al. (4),Tree,E,G ,Pinaceae,Picea_abies,8,-25.65,-7.98,E,18.14,,47.47,7.5,"Basel, Switzerland",EU,550,795,362.04,9.8,17.9,6.82,599,31.7,21.6,20,CCMF,CCF
+Chevillat et al. (4),Tree,E,G ,Pinaceae,Pinus_sylvestris,5,-25.88,-7.98,E,18.38,,47.47,7.5,"Basel, Switzerland",EU,550,795,362.04,9.8,17.9,6.82,599,31.7,21.6,20,CCMF,CCF
+Chevillat et al. (4),Tree,D,G ,Pinaceae,Larix_decidua,8,-28.19,-7.98,E,20.8,,47.47,7.5,"Basel, Switzerland",EU,550,795,362.04,9.8,17.9,6.82,599,31.7,21.6,20,CCMF,CCF
+Chevillat et al. (4),Tree,D,A ,Sapindaceae,Acer_campestre,4,-27.76,-7.98,E,20.34,,47.47,7.5,"Basel, Switzerland",EU,550,795,362.04,9.8,17.9,6.82,599,31.7,21.6,20,CCMF,CCF
+Chevillat et al. (4),Tree,D,A,Betulaceae,Carpinus_betulus,7,-26.67,-7.98,E,19.2,,47.47,7.5,"Basel, Switzerland",EU,550,795,362.04,9.8,17.9,6.82,599,31.7,21.6,20,CCMF,CCF
+Chevillat et al. (4),Tree,D,A,Fagaceae,Fagus_sylvatica,8,-27.88,-7.98,E,20.47,,47.47,7.5,"Basel, Switzerland",EU,550,795,362.04,9.8,17.9,6.82,599,31.7,21.6,20,CCMF,CCF
+Chevillat et al. (4),Tree,D,A,Rosaceae,Prunus_avium,3,-26.79,-7.98,E,19.33,,47.47,7.5,"Basel, Switzerland",EU,550,795,362.04,9.8,17.9,6.82,599,31.7,21.6,20,CCMF,CCF
+Chevillat et al. (4),Tree,D,A,Fagaceae,Quercus_petraea,8,-26.77,-7.98,E,19.31,,47.47,7.5,"Basel, Switzerland",EU,550,795,362.04,9.8,17.9,6.82,599,31.7,21.6,20,CCMF,CCF
+Chevillat et al. (4),Tree,D,A,Malvaceae,Tilia_platyphyllos,3,-26.89,-7.98,E,19.43,,47.47,7.5,"Basel, Switzerland",EU,550,795,362.04,9.8,17.9,6.82,599,31.7,21.6,20,CCMF,CCF
+Kloeppel et al. (5),Tree,D,G ,Pinaceae,Larix_occidentalis,10,-26.36,-7.9,E,18.95,18.58,46.85,-113.88,"Bonner, MT USA ",NAm,1158,740.12,145.6,6.1,16.3,9.04,958.1,60.9,36.4,45,CCEF,CCF
+Kloeppel et al. (5),Tree,E,G ,Pinaceae,Pseudotsuga_menziesii,10,-25.64,-7.9,E,18.21,,46.85,-113.88,"Bonner, MT USA ",NAm,1158,740.12,145.6,6.1,16.3,9.04,958.1,60.9,36.4,45,CCEF,CCF
+Kloeppel et al. (5),Tree,D,G ,Pinaceae,Larix_occidentalis,10,-27.06,-7.9,E,19.69,19.58,47.92,-113.82,"Lost Creek, MT USA ",NAm,1012,588.48,126.9,4.1,12.9,6.38,880.4,56.1,30.3,48,CCMF,CCF
+Kloeppel et al. (5),Tree,E,G ,Pinaceae,Pseudotsuga_menziesii,10,-26.85,-7.9,E,19.47,,47.92,-113.82,"Lost Creek, MT USA ",NAm,1012,588.48,126.9,4.1,12.9,6.38,880.4,56.1,30.3,48,CCMF,CCF
+Kloeppel et al. (5),Tree,D,G ,Pinaceae,Larix_occidentalis,5,-27.33,-7.9,E,19.98,20.42,48.42,-115.8,"Savage Lake, MT USA ",NAm,706,826.49,139.3,4.9,14.6,7.72,881,43.1,31.4,42,CCEF,CCF
+Kloeppel et al. (5),Tree,E,G ,Pinaceae,Pinus_contorta,10,-28.18,-7.9,E,20.87,,48.42,-115.8,"Savage Lake, MT USA ",NAm,706,826.49,139.3,4.9,14.6,7.72,881,43.1,31.4,42,CCEF,CCF
+Kloeppel et al. (5),Tree,D,G ,Pinaceae,Larix_lyallii,5,-26.85,-7.9,E,19.47,18.83,46.7,-114.17,"Carlton Ridge, MT USA ",NAm,2130,941.47,164.4,6.3,16.3,8.94,1074.4,83.7,32.6,43,CCMF,CCF
+Kloeppel et al. (5),Tree,E,G ,Pinaceae,Pinus_albicaulis,5,-25.63,-7.9,E,18.2,,46.7,-114.17,"Carlton Ridge, MT USA ",NAm,2130,941.47,164.4,6.3,16.3,8.94,1074.4,83.7,32.6,43,CCMF,CCF
+Kloeppel et al. (5),Tree,D,G ,Pinaceae,Larix_larcina,5,-28.77,-7.9,E,21.49,20.4,45.77,-89.57,"Lake Tomahawk, WI USA ",NAm,482,811.29,305.5,4.4,17.3,5.45,798.2,51.8,55.4,48,CCMF,CCF
+Kloeppel et al. (5),Tree,E,G ,Pinaceae,Picea_mariana,5,-26.7,-7.9,E,19.32,,45.77,-89.57,"Lake Tomahawk, WI USA ",NAm,482,811.29,305.5,4.4,17.3,5.45,798.2,51.8,55.4,48,CCMF,CCF
+Kloeppel et al. (5),Tree,D,G ,Pinaceae,Larix_larcina,5,-28.58,-7.9,E,21.29,19.69,45.93,-66.63,"Fredericton, NB Canada ",NAm,72,1142.4,275.67,5.2,18.1,6.98,634.4,43.1,48.3,46,CCMF,CCF
+Kloeppel et al. (5),Tree,E,G ,Pinaceae,Picea_mariana,5,-25.53,-7.9,E,18.09,,45.93,-66.63,"Fredericton, NB Canada ",NAm,72,1142.4,275.67,5.2,18.1,6.98,634.4,43.1,48.3,46,CCMF,CCF
+Kloeppel et al. (5),Tree,D,G ,Pinaceae,Larix_larcina,5,-28.02,-7.9,E,20.7,20.17,52,-105,"Candle Lake, SK Canada ",NAm,556,390.24,178.29,2,16.1,6.4,726.1,49.5,58.4,51,CCEF,CCF
+Kloeppel et al. (5),Tree,E,G ,Pinaceae,Picea_mariana,5,-27.01,-7.9,E,19.64,,52,-105,"Candle Lake, SK Canada ",NAm,556,390.24,178.29,2,16.1,6.4,726.1,49.5,58.4,51,CCEF,CCF
+Kloeppel et al. (5),Tree,D,G ,Pinaceae,Larix_larcina,5,-28.47,-7.9,E,21.17,20.55,56,-98.5,"Thompson, MB Canada A",NAm,213,524.64,228,-2.5,14.7,5.73,616,43.8,64,62,CCEF,CCF
+Kloeppel et al. (5),Tree,E,G ,Pinaceae,Picea_mariana,5,-27.29,-7.9,E,19.93,,56,-98.5,"Thompson, MB Canada A",NAm,213,524.64,228,-2.5,14.7,5.73,616,43.8,64,62,CCEF,CCF
+Kloeppel et al. (5),Tree,D,G ,Pinaceae,Larix_decidua,2,-27.84,-7.9,E,20.51,19.45,45.55,15.15,"Radenci, Slovenia",EU,300,1235.28,370.11,9.8,18.8,6.21,668.4,39,27.3,23,CCMF,CCF
+Kloeppel et al. (5),Tree,E,G ,Pinaceae,Picea_abies,2,-25.81,-7.9,E,18.38,,45.55,15.15,"Radenci, Slovenia",EU,300,1235.28,370.11,9.8,18.8,6.21,668.4,39,27.3,23,CCMF,CCF
+Kloeppel et al. (5),Tree,D,G ,Pinaceae,Larix_decidua,3,-28,-7.9,E,20.68,19.7,46.25,14.2,"Kamniska, Slovenia",EU,1700,1721.04,468.69,8.2,17.6,6.03,179,14.6,29,20,CCMF,CCF
+Kloeppel et al. (5),Tree,E,G ,Pinaceae,Picea_abies,2,-26.14,-7.9,E,18.73,,46.25,14.2,"Kamniska, Slovenia",EU,1700,1721.04,468.69,8.2,17.6,6.03,179,14.6,29,20,CCMF,CCF
+Kloeppel et al. (5),Tree,D,G ,Pinaceae,Larix_decidua,1,-28.61,-7.9,E,21.32,20.75,46.4,9.8,"Kublis, Switzerland",EU,800,1215.48,395.79,0.9,7.9,2.36,606.8,33.6,24.6,26,CCEF,CCF
+Kloeppel et al. (5),Tree,E,G ,Pinaceae,Picea_abies,1,-27.52,-7.9,E,20.18,,46.4,9.8,"Kublis, Switzerland",EU,800,1215.48,395.79,0.9,7.9,2.36,606.8,33.6,24.6,26,CCEF,CCF
+Kloeppel et al. (5),Tree,D,G ,Pinaceae,Larix_decidua,1,-28.15,-7.9,E,20.84,20.29,46.4,9.8,"Klosters, Switzerland",EU,1200,1215.48,395.79,0.9,7.9,2.36,564.1,35.3,21.6,34,CCEF,CCF
+Kloeppel et al. (5),Tree,E,G ,Pinaceae,Picea_abies,1,-27.11,-7.9,E,19.75,,46.4,9.8,"Klosters, Switzerland",EU,1200,1215.48,395.79,0.9,7.9,2.36,564.1,35.3,21.6,34,CCEF,CCF
+Kloeppel et al. (5),Tree,D,G ,Pinaceae,Larix_decidua,1,-27.48,-7.9,E,20.13,19.6,46.4,9.8,"Dischma, Switzerland",EU,1600,1215.48,395.79,0.9,7.9,2.36,521.3,36.9,18.7,42,CCEF,CCF
+Kloeppel et al. (5),Tree,E,G ,Pinaceae,Picea_abies,1,-26.47,-7.9,E,19.07,,46.4,9.8,"Dischma, Switzerland",EU,1600,1215.48,395.79,0.9,7.9,2.36,521.3,36.9,18.7,42,CCEF,CCF
+Kloeppel et al. (5),Tree,D,G ,Pinaceae,Larix_decidua,1,-26.19,-7.9,E,18.78,18.54,46.4,9.8,"Stillberg, Switzerland",EU,2000,1215.48,395.79,0.9,7.9,2.36,478.4,38.6,15.7,52,CCEF,CCF
+Kloeppel et al. (5),Tree,E,G ,Pinaceae,Picea_abies,1,-25.73,-7.9,E,18.3,,46.4,9.8,"Stillberg, Switzerland",EU,2000,1215.48,395.79,0.9,7.9,2.36,478.4,38.6,15.7,52,CCEF,CCF
+Kloeppel et al. (5),Tree,D,G ,Pinaceae,Larix_decidua,5,-26.44,-7.9,E,19.04,18.02,46,9.8,"Davos, Switzerland",EU,2000,1215.48,395.79,5.6,7.9,2.36,478.4,38.6,15.7,52,CCEF,CCF
+Kloeppel et al. (5),Tree,E,G ,Pinaceae,Picea_abies,5,-24.48,-7.9,E,17,,46,9.8,"Davos, Switzerland",EU,2000,1215.48,395.79,5.6,7.9,2.36,478.4,38.6,15.7,52,CCEF,CCF
+Kloeppel et al. (5),Tree,D,G ,Pinaceae,Larix_siberica,3,-27.81,-7.9,E,20.48,18.97,69.48,88.38,"Telk, Russia",AS,75,450,154.05,-10.1,8.9,4.31,266.3,13.2,57.1,68,CCEF,CCF
+Kloeppel et al. (5),Tree,E,G ,Pinaceae,Picea_obavata,3,-24.92,-7.9,E,17.45,,69.48,88.38,"Telk, Russia",AS,75,450,154.05,-10.1,8.9,4.31,266.3,13.2,57.1,68,CCEF,CCF
+Kloeppel et al. (5),Tree,D,G ,Pinaceae,Larix_decidua,5,-27.07,-7.9,E,19.7,18.82,69.4,88.28,"Norilsk, Russia",AS,75,450,154.05,-10.1,8.9,4.31,266.3,13.2,63.8,68,CCEF,CCF
+Kloeppel et al. (5),Tree,E,G ,Pinaceae,Picea_obavata,5,-25.39,-7.9,E,17.95,,69.4,88.28,"Norilsk, Russia",AS,75,450,154.05,-10.1,8.9,4.31,266.3,13.2,63.8,68,CCEF,CCF
+Kloeppel et al. (5),Tree,D,G ,Pinaceae,Larix_siberica,5,-29.47,-7.9,E,22.22,21.25,64.3,20.42,"Haukadalur, Iceland",EU,200,635.28,192.48,3.1,13.5,4.98,394.1,31.6,31.2,56,CCEF,CCF
+Kloeppel et al. (5),Tree,E,G ,Pinaceae,Picea_sitchensis,5,-27.62,-7.9,E,20.28,,64.3,20.42,"Haukadalur, Iceland",EU,200,635.28,192.48,3.1,13.5,4.98,394.1,31.6,31.2,56,CCEF,CCF
+Valentini et al. (7),Shrub,E,A ,Anacardiaceae,Pistacia_lentiscus,1,-26.24,-7.71,E,19.03,18.91,42.37,11.53,Italy A,EU,4,732.36,96.6,16,24.1,12.33,957.7,46.8,19.6,3,CCMF,CCF
+Valentini et al. (7),Shrub,E,G ,Cupressaceae,Juniperus_oxycedrus,1,-22.9,-7.71,E,15.55,,42.37,11.53,Italy A,EU,3,732.36,96.6,16,24.1,12.33,957.7,46.8,19.6,3,CCMF,CCF
+Valentini et al. (7),Tree,D,A,Fagaceae,Quercus_pubescens,1,-27.19,-7.71,E,20.02,,42.37,11.53,Italy A,EU,3,732.36,96.6,16,24.1,12.33,957.7,46.8,19.6,3,CCMF,CCF
+Valentini et al. (7),Tree,D,A,Fagaceae,Quercus_cerris,1,-27.5,-7.71,E,20.35,,42.37,11.53,Italy A,EU,3,732.36,96.6,16,24.1,12.33,957.7,46.8,19.6,3,CCMF,CCF
+Valentini et al. (7),Tree,E,A,Fagaceae,Quercus_ilex,1,-26.44,-7.71,E,19.24,,42.37,11.53,Italy A,EU,5,732.36,96.6,16,24.1,12.33,957.7,46.8,19.6,3,CCMF,CCF
+Valentini et al. (7),Tree,E,A,Oleaceae,Phyllyrea_angustifolia,1,-26.49,-7.71,E,19.29,,42.37,11.53,Italy A,EU,5,732.36,96.6,16,24.1,12.33,957.7,46.8,19.6,3,CCMF,CCF
+Garten and Taylor (8),Tree,D,A,Sapindaceae,Acer_rubrum,6,-28.8,-7.54,E,21.89,21.95,35.97,-84.28,"Oak Ridge, TN USA ",NAm,300,1398.23,330.2,14.4,24.2,7.71,1121.8,57.2,46.5,19,EWMF,EWMF
+Garten and Taylor (8),Tree,D,A,Magnoliaceae,Liriodendron_tulipifera,4,-29.6,-7.54,E,22.73,,35.97,-84.28,"Oak Ridge, TN USA ",NAm,300,1398.23,330.2,14.4,24.2,7.71,1121.8,57.2,46.5,19,EWMF,EWMF
+Garten and Taylor (8),Tree,D,A,Cornaceae,Nyssa_sylvatica,4,-30.12,-7.54,E,23.28,,35.97,-84.28,"Oak Ridge, TN USA ",NAm,300,1398.23,330.2,14.4,24.2,7.71,1121.8,57.2,46.5,19,EWMF,EWMF
+Garten and Taylor (8),Tree,D,A,Fagaceae,Quercus_sp,7,-28.8,-7.54,E,21.89,,35.97,-84.28,"Oak Ridge, TN USA ",NAm,300,1398.23,330.2,14.4,24.2,7.71,1121.8,57.2,46.5,19,EWMF,EWMF
+Garten and Taylor (8),Tree,E,G ,Pinaceae,Pinus_sp,5,-26.96,-7.54,E,19.96,,35.97,-84.28,"Oak Ridge, TN USA ",NAm,300,1398.23,330.2,14.4,24.2,7.71,1121.8,57.2,46.5,19,EWMF,EWMF
+Brooks et al. (9),Tree,D,A,Salicaceae,Populus_tremuloides,10,-27.2,-7.81,E,19.93,19.91,53.2,-105.75,"Prince Albert, SK Canada ",NAm,600,420,194.34,1.1,15.9,6.37,705.1,47.9,56.8,55,CCEF,CCF
+Brooks et al. (9),Tree,D,A,Betulaceae,Alnus_crispa,10,-28.4,-7.81,E,21.19,,53.2,-105.75,"Prince Albert, SK Canada ",NAm,600,420,194.34,1.1,15.9,6.37,705.1,47.9,56.8,55,CCEF,CCF
+Brooks et al. (9),Tree,E,G,Pinaceae,Picea_mariana,10,-26.5,-7.81,E,19.2,,53.2,-105.75,"Prince Albert, SK Canada ",NAm,600,420,194.34,1.1,15.9,6.37,705.1,47.9,56.8,55,CCEF,CCF
+Brooks et al. (9),Tree,E,G,Pinaceae,Pinus_banksiana,10,-26.6,-7.81,E,19.3,,53.2,-105.75,"Prince Albert, SK Canada ",NAm,600,420,194.34,1.1,15.9,6.37,705.1,47.9,56.8,55,CCEF,CCF
+Brooks et al. (9),Tree,D,A,Salicaceae,Populus_tremuloides,10,-28.65,-7.81,E,21.45,20.37,55.75,-97.87,"Thompson, MB Canada B",NAm,200,513,231.81,-2.2,14.8,5.64,616,43.9,63.9,61,CCEF,CCF
+Brooks et al. (9),Tree,D,A,Salicaceae,Salix_sp,10,-29.8,-7.81,E,22.67,,55.75,-97.87,"Thompson, MB Canada B",NAm,200,513,231.81,-2.2,14.8,5.64,616,43.9,63.9,61,CCEF,CCF
+Brooks et al. (9),Tree,D,A,Betulaceae,Alnus_crispa,30,-28.3,-7.81,E,21.09,,55.75,-97.87,"Thompson, MB Canada B",NAm,200,513,231.81,-2.2,14.8,5.64,616,43.9,63.9,61,CCEF,CCF
+Brooks et al. (9),Tree,E,G,Pinaceae,Picea_mariana,10,-26.5,-7.81,E,19.2,,55.75,-97.87,"Thompson, MB Canada B",NAm,200,513,231.81,-2.2,14.8,5.64,616,43.9,63.9,61,CCEF,CCF
+Brooks et al. (9),Tree,E,G,Pinaceae,Pinus_banksiana,10,-24.8,-7.81,E,17.42,,55.75,-97.87,"Thompson, MB Canada B",NAm,200,513,231.81,-2.2,14.8,5.64,616,43.9,63.9,61,CCEF,CCF
+Escudero et al. (10),Tree,D,A,"Rosaceae	",Pyrus_bourgaeana,1,-27.58,-8.06,E,20.07,19.12,41.78,-5.42,Spain A,EU,700,416,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,D,A,Rosaceae,Crataegus_monogyna,1,-28.14,-8.06,E,20.66,,41.78,-5.42,Spain A,EU,700,416,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,E,A,Fagaceae,Quercus_rotundifolia,1,-26.79,-8.06,E,19.25,,41.78,-5.42,Spain A,EU,700,416,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,E,G,Pinaceae,Pinus_pinea,1,-25.56,-8.06,E,17.96,,41.78,-5.42,Spain A,EU,700,416,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,E,G,Pinaceae,Pinus_pinaster,1,-25.29,-8.06,E,17.68,,41.78,-5.42,Spain A,EU,700,416,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,D,A,Rhamnaceae,Frangula_alnus,1,-29.04,-8.06,E,21.61,20.17,41.78,-5.42,Spain B,EU,1178,1099,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,D,A,Betulaceae,Betula_pubescens,1,-28.86,-8.06,E,21.42,,41.78,-5.42,Spain B,EU,1178,1099,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,D,A,Fagaceae,Quercus_pyrenaica,1,-26.38,-8.06,E,18.82,,41.78,-5.42,Spain B,EU,1178,1099,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,E,G,Pinaceae,Pinus_pinaster,1,-26.61,-8.06,E,19.06,,41.78,-5.42,Spain B,EU,1178,1099,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,E,G,Pinaceae,Pinus_sylvestris,1,-27.45,-8.06,E,19.94,,41.78,-5.42,Spain B,EU,1178,1099,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,D,A,Sapindaceae,Acer_monspessulanum,1,-26.68,-8.06,E,19.13,18.74,41.78,-5.42,Spain C,EU,1335,1163,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,D,A,Fagaceae,Quercus_pyrenaica,1,-26.97,-8.06,E,19.43,,41.78,-5.42,Spain C,EU,1335,1163,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,E,A,Aquifoliales,Ilex_aquifolium,1,-26.22,-8.06,E,18.65,,41.78,-5.42,Spain C,EU,1335,1163,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,E,G,Taxaceae,Taxus_baccata,1,-25.37,-8.06,E,17.76,,41.78,-5.42,Spain C,EU,1335,1163,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Shrub,E,A,Fagaceae,Quercus_coccifera,1,-25.86,-8.06,E,18.27,18.59,41.78,-5.42,Spain D,EU,789,241,,12.4,20.5,11.82,,,,,XWS,XWS
+Escudero et al. (10),Tree,E,A,Fagaceae,Quercus_rotundifolia,1,-27.4,-8.06,E,19.88,,41.78,-5.42,Spain D,EU,789,241,,12.4,20.5,11.82,,,,,XWS,XWS
+Escudero et al. (10),Tree,E,G,Pinaceae,Pinus_pinea,1,-25.22,-8.06,E,17.6,,41.78,-5.42,Spain D,EU,789,241,,12.4,20.5,11.82,,,,,XWS,XWS
+Escudero et al. (10),Tree,E,A,Fagaceae,Quercus_rotundifolia,1,-26.63,-8.06,E,19.08,17.84,41.78,-5.42,Spain E,EU,706,400,,12.4,20.5,11.82,,,,,XWS,XWS
+Escudero et al. (10),Tree,E,G,Pinaceae,Pinus_pinea,1,-25.66,-8.06,E,18.06,,41.78,-5.42,Spain E,EU,706,400,,12.4,20.5,11.82,,,,,XWS,XWS
+Escudero et al. (10),Tree,E,G,Pinaceae,Pinus_halpensis,1,-24.04,-8.06,E,16.37,,41.78,-5.42,Spain E,EU,706,400,,12.4,20.5,11.82,,,,,XWS,XWS
+Escudero et al. (10),Tree,D,A,"Rosaceae	",Pyrus_bourgaeana,1,-27.72,-8.06,E,20.22,20.3,41.78,-5.42,Spain F,EU,800,577,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,D,A,Rosaceae,Crataegus_monogyna,1,-28.94,-8.06,E,21.5,,41.78,-5.42,Spain F,EU,800,577,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,D,A,Fagaceae,Quercus_pyrenaica,1,-27.47,-8.06,E,19.96,,41.78,-5.42,Spain F,EU,800,577,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,E,A,Fagaceae,Quercus_suber,1,-27.22,-8.06,E,19.7,,41.78,-5.42,Spain F,EU,800,577,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,E,A,Fagaceae,Quercus_rotundifolia,1,-27.62,-8.06,E,20.12,,41.78,-5.42,Spain F,EU,800,577,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Shrub,D,A,Rosaceae,Prunus_spinosa,1,-27.74,-8.06,E,20.24,19.42,41.78,-5.42,Spain G,EU,708,616,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,D,A,Sapindaceae,Acer_monspessulanum,1,-26.72,-8.06,E,19.17,,41.78,-5.42,Spain G,EU,708,616,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,D,A,Oleaceae,Fraxinus_angustifolia,1,-25.89,-8.06,E,18.3,,41.78,-5.42,Spain G,EU,708,616,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,D,A,Fagaceae,Quercus_pyrenaica,1,-27.12,-8.06,E,19.59,,41.78,-5.42,Spain G,EU,708,616,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,E,A,Fagaceae,Quercus_suber,1,-26.45,-8.06,E,18.89,,41.78,-5.42,Spain G,EU,708,616,,12.4,20.5,11.82,,,,,CCMF,CCF
+Escudero et al. (10),Tree,E,A,Fagaceae,Quercus_rotundifolia,1,-27.81,-8.06,E,20.31,,41.78,-5.42,Spain G,EU,708,616,,12.4,20.5,11.82,,,,,CCMF,CCF
+Holtum and Winter (11),Tree,D,A,Fabaceae,Albizia_adinocephala,6,-28.6,-7.82,E,21.39,20.39,8.97,-79.38,Panama   ,NAm,85,1800,,26.7,26.8,5.25,1283.5,43.3,-6.4,0,TSF,TSF
+Holtum and Winter (11),Tree,D,A,Anacardiaceae,Anacardium_excelsum,31,-26.03,-7.82,E,18.7,,8.97,-79.38,Panama   ,NAm,85,1800,,26.7,26.8,5.25,1283.5,43.3,-6.4,0,TSF,TSF
+Holtum and Winter (11),Tree,D,A,Rubiaceae,Antirrhoea_trichantha,6,-28.7,-7.82,E,21.5,,8.97,-79.38,Panama   ,NAm,85,1800,,26.7,26.8,5.25,1283.5,43.3,-6.4,0,TSF,TSF
+Holtum and Winter (11),Tree,D,A,Moraceae,Castilla_elastica,6,-28.1,-7.82,E,20.87,,8.97,-79.38,Panama   ,NAm,85,1800,,26.7,26.8,5.25,1283.5,43.3,-6.4,0,TSF,TSF
+Holtum and Winter (11),Tree,D,A,Cecropicaeae,Cecropia_longipes,6,-26.6,-7.82,E,19.29,,8.97,-79.38,Panama   ,NAm,85,1800,,26.7,26.8,5.25,1283.5,43.3,-6.4,0,TSF,TSF
+Holtum and Winter (11),Tree,D,A,Cecropicaeae,Cecropia_peltata,6,-27.7,-7.82,E,20.45,,8.97,-79.38,Panama   ,NAm,85,1800,,26.7,26.8,5.25,1283.5,43.3,-6.4,0,TSF,TSF
+Holtum and Winter (11),Tree,D,A,Sapotaceae,Chrysophyllum_cainito,6,-29.7,-7.82,E,22.55,,8.97,-79.38,Panama   ,NAm,85,1800,,26.7,26.8,5.25,1283.5,43.3,-6.4,0,TSF,TSF
+Holtum and Winter (11),Tree,D,A,Araliaceae,Didymopanax_morototoni,6,-28.5,-7.82,E,21.29,,8.97,-79.38,Panama   ,NAm,85,1800,,26.7,26.8,5.25,1283.5,43.3,-6.4,0,TSF,TSF
+Holtum and Winter (11),Tree,D,A,Fabaceae,Enterolobium_cyclocarpum,6,-28.3,-7.82,E,21.08,,8.97,-79.38,Panama   ,NAm,85,1800,,26.7,26.8,5.25,1283.5,43.3,-6.4,0,TSF,TSF
+Holtum and Winter (11),Tree,D,A,Malvaceae,Luehea_seemannii,12,-27.6,-7.82,E,20.34,,8.97,-79.38,Panama   ,NAm,85,1800,,26.7,26.8,5.25,1283.5,43.3,-6.4,0,TSF,TSF
+Holtum and Winter (11),Tree,D,A,Bombacaceae,Pseudobombax_septenatum,8,-26.7,-7.82,E,19.4,,8.97,-79.38,Panama   ,NAm,85,1800,,26.7,26.8,5.25,1283.5,43.3,-6.4,0,TSF,TSF
+Holtum and Winter (11),Tree,D,A,Anacardiaceae,Spondias_mombin,6,-27.4,-7.82,E,20.13,,8.97,-79.38,Panama   ,NAm,85,1800,,26.7,26.8,5.25,1283.5,43.3,-6.4,0,TSF,TSF
+Holtum and Winter (11),Tree,E,A,Arecaceae,Acrocomia_aculeata,6,-27,-7.82,E,19.71,,8.97,-79.38,Panama   ,NAm,85,1800,,26.7,26.8,5.25,1283.5,43.3,-6.4,0,TSF,TSF
+Holtum and Winter (11),Tree,E,A,Moraceae,Ficus_insipida,6,-27.05,-7.82,E,19.76,,8.97,-79.38,Panama   ,NAm,85,1800,,26.7,26.8,5.25,1283.5,43.3,-6.4,0,TSF,TSF
+Holtum and Winter (11),Tree,E,A,Moraceae,Ficus_maxima,6,-26.7,-7.82,E,19.4,,8.97,-79.38,Panama   ,NAm,85,1800,,26.7,26.8,5.25,1283.5,43.3,-6.4,0,TSF,TSF
+Franco et al. (12),Tree,D,A,Fabaceae,Dalbergia_miscolobium,3,,-7.88,E,20.39,20.3,-15.93,-47.88,Brazil   ,SA,1100,1483,,23.2,21,10.38,1210.9,54.4,1,0,TSF,TSF
+Franco et al. (12),Tree,D,A,Vochysiaceae,Qualea_grandiflora,3,,-7.88,E,19.29,,-15.93,-47.88,Brazil   ,SA,1100,1483,,23.2,21,10.38,1210.9,54.4,1,0,TSF,TSF
+Franco et al. (12),Tree,D,A,Fabaceae,Pterodon_pubescens,3,,-7.88,E,18.45,,-15.93,-47.88,Brazil   ,SA,1100,1483,,23.2,21,10.38,1210.9,54.4,1,0,TSF,TSF
+Franco et al. (12),Tree,E,A,Vochysiaceae,Vochysia_elliptica,3,,-7.88,E,22.03,,-15.93,-47.88,Brazil   ,SA,1100,1483,,23.2,21,10.38,1210.9,54.4,1,0,TSF,TSF
+Franco et al. (12),Tree,E,A,Proteaceae,Roupala_montana,3,,-7.88,E,21.9,,-15.93,-47.88,Brazil   ,SA,1100,1483,,23.2,21,10.38,1210.9,54.4,1,0,TSF,TSF
+Franco et al. (12),Tree,E,A,Melastomataceae,Miconia_ferruginata,3,,-7.88,E,21.1,,-15.93,-47.88,Brazil   ,SA,1100,1483,,23.2,21,10.38,1210.9,54.4,1,0,TSF,TSF
+Franco et al. (12),Tree,E,A,Fabaceae,Sclerolobium_paniculatum,3,,-7.88,E,21.08,,-15.93,-47.88,Brazil   ,SA,1100,1483,,23.2,21,10.38,1210.9,54.4,1,0,TSF,TSF
+Franco et al. (12),Tree,E,A,Araliaceae,Schefflera_macrocarpa,3,,-7.88,E,19.46,,-15.93,-47.88,Brazil   ,SA,1100,1483,,23.2,21,10.38,1210.9,54.4,1,0,TSF,TSF
+Franco et al. (12),Tree,E,A,Ochnaeae,Ouratea_hexasperma,3,,-7.88,E,19.02,,-15.93,-47.88,Brazil   ,SA,1100,1483,,23.2,21,10.38,1210.9,54.4,1,0,TSF,TSF
+Leffler and Enquist (13),Tree,D,A,Bignoniaceae,Tabebuia_ochracea,3,-31.4,-7.89,E,24.27,22.73,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,D,A,Fabaceae,Ateleia_herbert-smithii,5,-31.1,-7.89,E,23.96,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,D,A,Rubiaceae,Calycophyllum_candidissimum,5,-30.7,-7.89,E,23.53,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,D,A,Rubiaceae,Guettarda_macrosperma,5,-30.5,-7.89,E,23.32,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,D,A,Ebenaceae,Diospyros_nicaraguensis,5,-30.4,-7.89,E,23.22,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,D,A,Anacardiaceae,Astronium_graveolens,5,-30.3,-7.89,E,23.11,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,D,A,Malpighiaceae,Bunchosia_biocellata,5,-30,-7.89,E,22.79,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,D,A,Rubiaceae,Genipa_americana,5,-29.5,-7.89,E,22.27,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,D,A,Boraginaceae,Cordia_alliodora,5,-28.6,-7.89,E,21.32,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,D,A,Celastraceae,Semialarium_mexicanum,5,-28.2,-7.89,E,20.9,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,E,A,Moraceae,Trophis_racemosa,5,-31.5,-7.89,E,24.38,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,E,A,"Piperaceae	",Piper_amalago,5,-31.2,-7.89,E,24.06,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,E,A,Sapotaceae,Chrysophyllum_brenessii,6,-31.1,-7.89,E,23.96,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,E,A,Lauraceae,Ocotea_veraguensis,5,-30.7,-7.89,E,23.53,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,E,A,Moraceae,Brosimum_alicastrum,4,-30.5,-7.89,E,23.32,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,E,A,Sapindaceae,Cupania_guatemalensis,5,-30.3,-7.89,E,23.11,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,E,A,Flacourtiaceae,Casearia_sylvestris,5,-30,-7.89,E,22.79,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,E,A,Meliaceae,Guarea_glabra,5,-29.5,-7.89,E,22.27,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,E,A,Capparaceae,Capparis_indica,6,-29.3,-7.89,E,22.06,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,E,A,Fabaceae,Hymenaea_courbaril,5,-29,-7.89,E,21.74,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,E,A,Sapotaceae,Manilkara_chicle,3,-28.6,-7.89,E,21.32,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,E,A,Sapotaceae,Sideroxylon_capiri,5,-28.5,-7.89,E,21.21,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Leffler and Enquist (13),Tree,E,A,Rutaceae,Zanthoxylum_setulosum,5,-27.7,-7.89,E,20.37,,10.75,-85.5,Costa Rica   ,NAm,100,1565,,25.9,26,5.02,1571.5,58.9,1.3,0,TSF,TSF
+Ehleringer et al. (14),Tree,E,A,Araliaceae,Schefflera_octophylla,1,-31.95,-7.5,E,25.26,23.42,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,A,Burseraceae,Canarium_album,1,-28.31,-7.5,E,21.42,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,A,Phyllanthaceae,Aporosa_yumanensis,1,-30.82,-7.5,E,24.06,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,A,Euphorbiaceae,Croton_tilglium,1,-29.5,-7.5,E,22.67,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,A,Euphorbiaceae,Sapium_discolor,1,-31.3,-7.5,E,24.57,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,A,Curculionoidea,Castanopsis_chinensis,1,-29.8,-7.5,E,22.98,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,A,Clusiaceae,Garcinia_oblongifolia,1,-30.02,-7.5,E,23.22,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,A,Lauraceae,Cryptocarya_chinensis,1,-33.62,-7.5,E,27.03,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,A,Lauraceae,Cryptocarya_concinna,1,-34.86,-7.5,E,28.35,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,A,Lauraceae,Lindera_chunii,1,-31.42,-7.5,E,24.7,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,A,Lauraceae,Lindera_communis,1,-29.1,-7.5,E,22.25,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,A,Lauraceae,Machilus_velutina,1,-32.24,-7.5,E,25.56,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,A,Magnoliaceae,Tsoongiodendron_odorum,1,-31.18,-7.5,E,24.44,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,A,Melastomataceae,Memecylon_ligustrifolium,1,-29.64,-7.5,E,22.82,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,A,Fabaceae,Pithecellobium_clypearia,1,-30.33,-7.5,E,23.54,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,A,Myrtaceae,Eucalyptus_robusta,1,-27.4,-7.5,E,20.46,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,A,Myrtaceae,Syzgium_rehderiamum,1,-29.95,-7.5,E,23.14,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,A,Proteaceae,Helicia_reticulata,1,-28.4,-7.5,E,21.51,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,A,"Rosaceae	",Pygeum_topengii,1,-30.23,-7.5,E,23.44,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,A,Sapotaceae,Sarcosperma_laurimum,1,-29.58,-7.5,E,22.75,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,A,Malvaceae,Sterculia_lanceolata,1,-29.74,-7.5,E,22.92,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,A,Theaceae,Schima_superba,1,-31.55,-7.5,E,24.83,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,G,Cupressaceae,Platyeladus_orientalis,1,-27.77,-7.5,E,20.85,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Ehleringer et al. (14),Tree,E,G,Pinaceae,Pinus_massoniana,1,-26.4,-7.5,E,19.41,,23.13,112.58,Guangdong Provence China,AS,250,1927,,22,28.1,7.53,780.2,33.8,43.6,1,TRF,TRF
+Valentini et al. (15),Tree,E,G ,Pinaceae,Picea_abies,1,-27.1,-7.79,E,19.85,19.85,46.53,12.13,"Corti D' Ampezzo, Italy",EU,1000,919.44,349.62,2.1,9.9,2.4,610.9,32.1,29.9,34,CCMF,CCF
+Valentini et al. (15),Tree,E,G,Pinaceae,Pinus_sylvestris,1,-25.9,-7.79,E,18.59,,46.53,12.13,"Corti D' Ampezzo, Italy",EU,1000,919.44,349.62,2.1,9.9,2.4,610.9,32.1,29.9,34,CCMF,CCF
+Valentini et al. (15),Tree,D,G,Pinaceae,Larix_decidua,1,-28.3,-7.79,E,21.11,,46.53,12.13,"Corti D' Ampezzo, Italy",EU,1000,919.44,349.62,2.1,9.9,2.4,610.9,32.1,29.9,34,CCMF,CCF
+Valentini et al. (15),Tree,E,G,Pinaceae,Picea_abies,1,-27.8,-7.79,E,20.58,21.18,46.33,12.32,"Ospitale di Cadore, Italy",EU,1500,1198.44,359.07,3.8,11.9,2.94,610.9,32.1,29.9,34,CCEF,CCF
+Valentini et al. (15),Tree,E,G ,Pinaceae,Pinus_cembra,1,-28.3,-7.79,E,21.11,,46.33,12.32,"Ospitale di Cadore, Italy",EU,1500,1198.44,359.07,3.8,11.9,2.94,610.9,32.1,29.9,34,CCEF,CCF
+Valentini et al. (15),Tree,D,G ,Pinaceae,Larix_decidua,1,-29,-7.79,E,21.84,,46.33,12.32,"Ospitale di Cadore, Italy",EU,1500,1198.44,359.07,3.8,11.9,2.94,610.9,32.1,29.9,34,CCEF,CCF
+Williams and Ehleringer (16),Tree,E,G,Cupressaceae,Juniperus_osteosperma,6,-23.75,-8,E,16.13,17.39,39.9,-115.5,"Birdseye, UT USA ",NAm,1859,424.97,54,7.8,18.3,14.14,1216.8,74,41.7,43,XWS,XWS
+Williams and Ehleringer (16),Tree,E,G,Pinaceae,Pinus_edulis,5,-23.84,-8,E,16.23,,39.9,-115.5,"Birdseye, UT USA ",NAm,1859,424.97,54,7.8,18.3,14.14,1216.8,74,41.7,43,XWS,XWS
+Williams and Ehleringer (16),Tree,D,A,Fagaceae,Quercus_gambelii,5,-27.26,-8,E,19.8,,39.9,-115.5,"Birdseye, UT USA ",NAm,1859,424.97,54,7.8,18.3,14.14,1216.8,74,41.7,43,XWS,XWS
+Williams and Ehleringer (16),Tree,E,G,Cupressaceae,Juniperus_osteosperma,5,-24.06,-8,E,16.46,17.51,33.6,-109.1,"Blue, AZ USA ",NAm,1980,601.41,224.3,8,16.5,12.38,1751.4,73.4,37.6,53,XWS,XWS
+Williams and Ehleringer (16),Tree,E,G,Pinaceae,Pinus_edulis,5,-24.28,-8,E,16.69,,33.6,-109.1,"Blue, AZ USA ",NAm,1980,601.41,224.3,8,16.5,12.38,1751.4,73.4,37.6,53,XWS,XWS
+Williams and Ehleringer (16),Tree,D,A,Fagaceae,Quercus_gambelii,6,-26.88,-8,E,19.4,,33.6,-109.1,"Blue, AZ USA ",NAm,1980,601.41,224.3,8,16.5,12.38,1751.4,73.4,37.6,53,XWS,XWS
+Williams and Ehleringer (16),Tree,E,G,Cupressaceae,Juniperus_osteosperma,5,-25.24,-8,E,17.69,17.83,34.7,-113.9,"Grand Canyon, AZ USA ",NAm,2120,309.33,57.6,18.6,26.9,26.15,2597.4,85.8,44.7,11,XWS,XWS
+Williams and Ehleringer (16),Tree,E,G,Pinaceae,Pinus_edulis,5,-23.7,-8,E,16.08,,34.7,-113.9,"Grand Canyon, AZ USA ",NAm,2120,309.33,57.6,18.6,26.9,26.15,2597.4,85.8,44.7,11,XWS,XWS
+Williams and Ehleringer (16),Tree,D,A,Fagaceae,Quercus_gambelii,6,-27.2,-8,E,19.74,,34.7,-113.9,"Grand Canyon, AZ USA ",NAm,2120,309.33,57.6,18.6,26.9,26.15,2597.4,85.8,44.7,11,XWS,XWS
+Williams and Ehleringer (16),Tree,E,G,Cupressaceae,Juniperus_osteosperma,5,-25.2,-8,E,17.64,17.68,34.3,-110.23,"Pinedale, AZ USA ",NAm,1970,459.26,140,12.1,20.8,17.17,1479.4,74.5,41.7,42,XWS,XWS
+Williams and Ehleringer (16),Tree,E,G,Pinaceae,Pinus_edulis,5,-23.54,-8,E,15.91,,34.3,-110.23,"Pinedale, AZ USA ",NAm,1970,459.26,140,12.1,20.8,17.17,1479.4,74.5,41.7,42,XWS,XWS
+Williams and Ehleringer (16),Tree,D,A,Fagaceae,Quercus_gambelii,5,-26.96,-8,E,19.49,,34.3,-110.23,"Pinedale, AZ USA ",NAm,1970,459.26,140,12.1,20.8,17.17,1479.4,74.5,41.7,42,XWS,XWS
+Williams and Ehleringer (16),Tree,E,G,Cupressaceae,Juniperus_osteosperma,5,-23.5,-8,E,15.87,17.66,40.5,-112.28,"Tooele, UT USA ",NAm,1980,561.76,82.7,10.1,21.3,16.14,1409.8,72.5,46.4,34,XWS,XWS
+Williams and Ehleringer (16),Tree,D,A,Fagaceae,Quercus_gambelii,5,-26.92,-8,E,19.44,,40.5,-112.28,"Tooele, UT USA ",NAm,1980,561.76,82.7,10.1,21.3,16.14,1409.8,72.5,46.4,34,XWS,XWS
+Williams and Ehleringer (16),Tree,E,G,Cupressaceae,Juniperus_osteosperma,4,-23.85,-8,E,16.24,17.29,37.2,-113.9,"Zion Nat. Park, UT USA ",NAm,2000,309.33,57.6,11.8,22.1,19.21,1486.2,72.2,41.7,48,XWS,XWS
+Williams and Ehleringer (16),Tree,E,G,Pinaceae,Pinus_edulis,4,-23.28,-8,E,15.64,,37.2,-113.9,"Zion Nat. Park, UT USA ",NAm,2000,309.33,57.6,11.8,22.1,19.21,1486.2,72.2,41.7,48,XWS,XWS
+Williams and Ehleringer (16),Tree,D,A,Fagaceae,Quercus_gambelii,4,-27.45,-8,E,20,,37.2,-113.9,"Zion Nat. Park, UT USA ",NAm,2000,309.33,57.6,11.8,22.1,19.21,1486.2,72.2,41.7,48,XWS,XWS
+McArthur and Moorhead (17),Tree,D,A,Sapindaceae,Acer_rubrum,5,-30.2,-7.88,E,23.02,23.38,33.32,-81.72,"Aiken, SC USA Upper",NAm,60,1215.39,370.1,18.1,26.6,9.73,1365.7,63.7,43.2,9,EWMF,EWMF
+McArthur and Moorhead (17),Tree,D,A,Fagaceae,Quercus_laurifolia,5,-30.2,-7.88,E,23.02,,33.32,-81.72,"Aiken, SC USA Upper",NAm,60,1215.39,370.1,18.1,26.6,9.73,1365.7,63.7,43.2,9,EWMF,EWMF
+McArthur and Moorhead (17),Tree,D,A,Betulaceae,Carpinus_caroliniana,5,-31.1,-7.88,E,23.97,,33.32,-81.72,"Aiken, SC USA Upper",NAm,60,1215.39,370.1,18.1,26.6,9.73,1365.7,63.7,43.2,9,EWMF,EWMF
+McArthur and Moorhead (17),Tree,E,A,Aquifoliales,Ilex_opaca,5,-29.7,-7.88,E,22.49,,33.32,-81.72,"Aiken, SC USA Upper",NAm,60,1215.39,370.1,18.1,26.6,9.73,1365.7,63.7,43.2,9,EWMF,EWMF
+McArthur and Moorhead (17),Tree,D,A,Sapindaceae,Acer_rubrum,5,-31.3,-7.88,E,24.18,,33.32,-81.72,"Aiken, SC USA Middle",NAm,60,1215.39,370.1,18.1,26.6,9.73,1365.7,63.7,43.2,9,EWMF,EWMF
+McArthur and Moorhead (17),Tree,D,A,Fagaceae,Quercus_nigra,5,-30.2,-7.88,E,23.02,,33.32,-81.72,"Aiken, SC USA Middle",NAm,60,1215.39,370.1,18.1,26.6,9.73,1365.7,63.7,43.2,9,EWMF,EWMF
+McArthur and Moorhead (17),Tree,D,A,Betulaceae,Carpinus_caroliniana,5,-30.5,-7.88,E,23.33,,33.32,-81.72,"Aiken, SC USA Middle",NAm,60,1215.39,370.1,18.1,26.6,9.73,1365.7,63.7,43.2,9,EWMF,EWMF
+McArthur and Moorhead (17),Tree,E,A,Aquifoliales,Ilex_opaca,5,-30,-7.88,E,22.8,,33.32,-81.72,"Aiken, SC USA Middle",NAm,60,1215.39,370.1,18.1,26.6,9.73,1365.7,63.7,43.2,9,EWMF,EWMF
+McArthur and Moorhead (17),Tree,D,A,Altingiaceae,Liquidambar_styraciflua,5,-31,-7.88,E,23.86,,33.32,-81.72,"Aiken, SC USA Middle",NAm,60,1215.39,370.1,18.1,26.6,9.73,1365.7,63.7,43.2,9,EWMF,EWMF
+McArthur and Moorhead (17),Tree,D,A,Cornaceae,Nyssa_sylvatica,5,-32.8,-7.88,E,25.77,,33.32,-81.72,"Aiken, SC USA Lower",NAm,60,1215.39,370.1,18.1,26.6,9.73,1365.7,63.7,43.2,9,EWMF,EWMF
+McArthur and Moorhead (17),Tree,D,A,Sapindaceae,Acer_rubrum,5,-31.3,-7.88,E,24.18,,33.32,-81.72,"Aiken, SC USA Lower",NAm,60,1215.39,370.1,18.1,26.6,9.73,1365.7,63.7,43.2,9,EWMF,EWMF
+McArthur and Moorhead (17),Tree,D,G,Cupressaceae,Taxodium_distichum,5,-28.2,-7.88,E,20.91,,33.32,-81.72,"Aiken, SC USA Lower",NAm,60,1215.39,370.1,18.1,26.6,9.73,1365.7,63.7,43.2,9,EWMF,EWMF
+Li et al. (18),Tree,E,G,Pinaceae,Pinus_massoniana,13,-29.15,-8.07,E,21.71,21.98,26.43,115.03,China A,AS,89,1461,468.06,19.1,27.7,9.25,1017.8,31.1,68,2,EWMF,EWMF
+Li et al. (18),Tree,E,A,Theaceae,Schima_superba,13,-29.65,-8.07,E,22.24,,26.43,115.03,China A,AS,89,1461,468.06,19.1,27.7,9.25,1017.8,31.1,68,2,EWMF,EWMF
+Delucia and Schlesinger (19),Shrub,E,A,Asteraceae,Artemisia_tridentata,1,-24.05,-7.62,E,16.83,15.62,39.47,-119.38,"Ramsey Mine, NV USA ",NAm,1700,323.49,32.1,10.7,19.5,15.08,1321.4,80.2,38.1,45,XWS,XWS
+Delucia and Schlesinger (19),Tree,E,G,Cupressaceae,Juniperus_osteosperma,1,-23.05,-7.62,E,15.79,,39.47,-119.38,"Ramsey Mine, NV USA ",NAm,1700,323.49,32.1,10.7,19.5,15.08,1321.4,80.2,38.1,45,XWS,XWS
+Delucia and Schlesinger (19),Tree,E,G,Pinaceae,Pinus_ponderosa,1,-21.55,-7.62,E,14.24,,39.47,-119.38,"Ramsey Mine, NV USA ",NAm,1700,323.49,32.1,10.7,19.5,15.08,1321.4,80.2,38.1,45,XWS,XWS
+Delucia and Schlesinger (19),Shrub,D,A,Rosaceae,Amelanchier_alnifolia,1,-25.74,-7.62,E,18.6,16.22,39.38,-119.72,"Virginia Mountains, NV USA ",NAm,1615,297.3,22.6,7.8,16.6,12.7,1332.4,80.6,41.5,33,XWS,XWS
+Delucia and Schlesinger (19),Shrub,E,A,Asteraceae,Artemesia_tridentata,1,-25.4,-7.62,E,18.24,,39.38,-119.72,"Virginia Mountains, NV USA ",NAm,1615,297.3,22.6,7.8,16.6,12.7,1332.4,80.6,41.5,33,XWS,XWS
+Delucia and Schlesinger (19),Tree,E,G,Cupressaceae,Juniperus_osteosperma,1,-22.52,-7.62,E,15.24,,39.38,-119.72,"Virginia Mountains, NV USA ",NAm,1615,297.3,22.6,7.8,16.6,12.7,1332.4,80.6,41.5,33,XWS,XWS
+Delucia and Schlesinger (19),Tree,E,G,Pinaceae,Pinus_monophylla,1,-21.36,-7.62,E,14.04,,39.38,-119.72,"Virginia Mountains, NV USA ",NAm,1615,297.3,22.6,7.8,16.6,12.7,1332.4,80.6,41.5,33,XWS,XWS
+Delucia and Schlesinger (19),Tree,E,G,Pinaceae,Pinus_ponderosa,1,-22.26,-7.62,E,14.97,,39.38,-119.72,"Virginia Mountains, NV USA ",NAm,1615,297.3,22.6,7.8,16.6,12.7,1332.4,80.6,41.5,33,XWS,XWS
+Delucia and Schlesinger (19),Shrub,E,A,Asteraceae,Artemisia_tridentata,1,-24.81,-7.62,E,17.63,16.3,39.55,-119.88,"Peavine Mountain, NV USA ",NAm,1710,367.86,32.7,9.3,17.8,13.09,1313.5,80.2,32.9,49,XWS,XWS
+Delucia and Schlesinger (19),Shrub,D,A,"Rosaceae	",Purshia_tridentata,1,-24.15,-7.62,E,16.94,,39.55,-119.88,"Peavine Mountain, NV USA ",NAm,1710,367.86,32.7,9.3,17.8,13.09,1313.5,80.2,32.9,49,XWS,XWS
+Delucia and Schlesinger (19),Tree,E,G,Pinaceae,Pinus_jeffreyi,1,-22.97,-7.62,E,15.71,,39.55,-119.88,"Peavine Mountain, NV USA ",NAm,1710,367.86,32.7,9.3,17.8,13.09,1313.5,80.2,32.9,49,XWS,XWS
+Delucia and Schlesinger (19),Tree,E,G,Pinaceae,Pinus_ponderosa,1,-22.23,-7.62,E,14.94,,39.55,-119.88,"Peavine Mountain, NV USA ",NAm,1710,367.86,32.7,9.3,17.8,13.09,1313.5,80.2,32.9,49,XWS,XWS
+Delucia and Schlesinger (19),Shrub,E,A,Asteraceae,Artemisia_tridentata,1,-25.9,-7.62,E,18.77,17.7,38.68,-119.72,"Alpine County, NV USA ",NAm,2088,766.65,51.3,6.8,15.4,12.2,1309.6,80.3,30.2,39,CCMF,CCF
+Delucia and Schlesinger (19),Shrub,E,A,Ericaceae,Arctostaphylos_patula,1,-26.5,-7.62,E,19.39,,38.68,-119.72,"Alpine County, NV USA ",NAm,2088,766.65,51.3,6.8,15.4,12.2,1309.6,80.3,30.2,39,CCMF,CCF
+Delucia and Schlesinger (19),Tree,E,G,Pinaceae,Pinus_jeffreyi,1,-22.22,-7.62,E,14.93,,38.68,-119.72,"Alpine County, NV USA ",NAm,2088,766.65,51.3,6.8,15.4,12.2,1309.6,80.3,30.2,39,CCMF,CCF
+Collister et al. (20),Tree,D,A,Fagaceae,Fagus_cylvatica,1,-29.8,-7.75,E,22.73,22.56,51.44,-2.62,"Bristol, UK",EU,70,861.12,193.26,10.3,15.9,4.37,624.6,32.8,9.6,31,,
+Collister et al. (20),Tree,D,A,Sapindaceae,Acer_campestre,1,-30.4,-7.75,E,23.36,,51.44,-2.62,"Bristol, UK",EU,70,861.12,193.26,10.3,15.9,4.37,624.6,32.8,9.6,31,,
+Collister et al. (20),Tree,E,A,Magnoliaceae,Magnolia_delavayi,1,-28.7,-7.75,E,21.57,,51.44,-2.62,"Bristol, UK",EU,70,861.12,193.26,10.3,15.9,4.37,624.6,32.8,9.6,31,,
+Collister et al. (20),Tree,D,A,Fagaceae,Quercus_turneri,1,-28.8,-7.75,E,21.67,,51.44,-2.62,"Bristol, UK",EU,70,861.12,193.26,10.3,15.9,4.37,624.6,32.8,9.6,31,,
+Collister et al. (20),Tree,D,A,Fagaceae,Quercus_rober,1,-30.5,-7.75,E,23.47,,51.44,-2.62,"Bristol, UK",EU,70,861.12,193.26,10.3,15.9,4.37,624.6,32.8,9.6,31,,
+Inagaki et al. (21),Tree,E,G,Pinaceae,Pinus_densiflora,1,-27.9,-8.06,E,20.41,,33.8,133.82,Japan B,AS,610,2580,999.06,13.5,22.4,6.9,824.9,38.9,46.9,16,EWMF,EWMF
+Marshall and Zhang (22),Tree,E,G ,Cupressaceae,Thuja_plicata,20,,-8,E,16.67,19.22,,,ID and BC USA and Canada ,NAm,,,,,,,,,,,,
+Marshall and Zhang (22),Tree,E,G ,Pinaceae,Pinus_albicaulis,20,,-8,E,18.04,,,,ID and BC USA and Canada ,NAm,,,,,,,,,,,,
+Marshall and Zhang (22),Tree,E,G ,Pinaceae,Picea_engelmannii,40,,-8,E,18.15,,,,ID and BC USA and Canada ,NAm,,,,,,,,,,,,
+Marshall and Zhang (22),Tree,E,G ,Pinaceae,Pseudotsuga_menziesii,65,,-8,E,18.42,,,,ID and BC USA and Canada ,NAm,,,,,,,,,,,,
+Marshall and Zhang (22),Tree,E,G ,Pinaceae,Abies_lasiocarpa,30,,-8,E,18.52,,,,ID and BC USA and Canada ,NAm,,,,,,,,,,,,
+Marshall and Zhang (22),Tree,E,G ,Pinaceae,Pinus_monticola,20,,-8,E,18.58,,,,ID and BC USA and Canada ,NAm,,,,,,,,,,,,
+Marshall and Zhang (22),Tree,E,G ,Pinaceae,Pinus_ponderosa,30,,-8,E,18.65,,,,ID and BC USA and Canada ,NAm,,,,,,,,,,,,
+Marshall and Zhang (22),Tree,E,G ,Pinaceae,Pinus_contorta,45,,-8,E,18.94,,,,ID and BC USA and Canada ,NAm,,,,,,,,,,,,
+Marshall and Zhang (22),Tree,D,A,Salicaceae,Populus_tremuloides,60,,-8,E,19.27,,,,ID and BC USA and Canada ,NAm,,,,,,,,,,,,
+Marshall and Zhang (22),Tree,D,A,Salicaceae,Salix_scouleriana,30,,-8,E,19.41,,,,ID and BC USA and Canada ,NAm,,,,,,,,,,,,
+Marshall and Zhang (22),Tree,E,G ,Pinaceae,Tsuga_heterophylla,15,,-8,E,19.44,,,,ID and BC USA and Canada ,NAm,,,,,,,,,,,,
+Marshall and Zhang (22),Tree,D,A,Salicaceae,Populus_trichocarpa,40,,-8,E,19.45,,,,ID and BC USA and Canada ,NAm,,,,,,,,,,,,
+Marshall and Zhang (22),Tree,E,G ,Pinaceae,Abies_grandis,30,,-8,E,19.75,,,,ID and BC USA and Canada ,NAm,,,,,,,,,,,,
+Marshall and Zhang (22),Tree,D,A,Sapindaceae,Acer_glabrum,35,,-8,E,19.95,,,,ID and BC USA and Canada ,NAm,,,,,,,,,,,,
+Marshall and Zhang (22),Tree,D,A,Rosaceae,Sorbus_spp,20,,-8,E,20.3,,,,ID and BC USA and Canada ,NAm,,,,,,,,,,,,
+Marshall and Zhang (22),Tree,D,A,Rosaceae,Amelancher_alnifolia,30,,-8,E,20.6,,,,ID and BC USA and Canada ,NAm,,,,,,,,,,,,
+Marshall and Zhang (22),Tree,D,A,Betulaceae,Betula_spp,25,,-8,E,20.78,,,,ID and BC USA and Canada ,NAm,,,,,,,,,,,,
+Marshall and Zhang (22),Tree,D,G ,Pinaceae,Larix_occidentalis,45,,-8,E,20.95,,,,ID and BC USA and Canada ,NAm,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Shrub,E,A,Anacardiaceae,Pistacia_lentiscus,1,-27,-6.4,E,21.17,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Shrub,E,A,Ericaceae,Rhododendron_ferrugineum,1,-25.87,-6.4,E,19.99,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,D,A,Betulaceae,Alnus_glutinosa,1,-26.06,-6.4,E,20.19,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,D,A,Betulaceae,Betula_pendula,1,-25.08,-6.4,E,19.16,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,D,A,Buxaceae,Buxus_sempervirens,1,-24.34,-6.4,E,18.39,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,E,A,Fabaceae,Ceratonia_siliqua,1,-26.18,-6.4,E,20.31,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,E,G,Cupressaceae,Juniperus_communis,1,-23.28,-6.4,E,17.28,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,E,G,Pinaceae,Pinus_pinea,1,-26.81,-6.4,E,20.97,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,E,G,Pinaceae,Pinus_uncinata,1,-26.91,-6.4,E,21.08,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Shrub,E,A,Anacardiaceae,Pistacia_lentiscus,1,-26.55,-6.5,E,20.6,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Shrub,E,A,Ericaceae,Rhododendron_ferrugineum,1,-25.93,-6.5,E,19.95,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,D,A,Betulaceae,Alnus_glutinosa,1,-26.56,-6.5,E,20.61,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,D,A,Betulaceae,Betula_pendula,1,-26.95,-6.5,E,21.02,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,D,A,Buxaceae,Buxus_sempervirens,1,-25.9,-6.5,E,19.92,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,E,A,Fabaceae,Ceratonia_siliqua,1,-24.41,-6.5,E,18.36,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,E,G,Cupressaceae,Juniperus_communis,1,-23.1,-6.5,E,16.99,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,E,G,Pinaceae,Pinus_pinea,1,-26.92,-6.5,E,20.98,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,E,G,Pinaceae,Pinus_uncinata,1,-24.02,-6.5,E,17.95,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Shrub,E,A,Anacardiaceae,Pistacia_lentiscus,1,-27.05,-6.8,E,20.81,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Shrub,E,A,Ericaceae,Rhododendron_ferrugineum,1,-28.68,-6.8,E,22.53,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,D,A,Betulaceae,Alnus_glutinosa,1,-27.21,-6.8,E,20.98,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,D,A,Betulaceae,Betula_pendula,1,-25.22,-6.8,E,18.9,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,D,A,Buxaceae,Buxus_sempervirens,1,-23.29,-6.8,E,16.88,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,E,A,Fabaceae,Ceratonia_siliqua,1,-26.05,-6.8,E,19.76,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,E,G,Cupressaceae,Juniperus_communis,1,-26.07,-6.8,E,19.79,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,E,G,Pinaceae,Pinus_pinea,1,-26.94,-6.8,E,20.7,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,E,G,Pinaceae,Pinus_uncinata,1,-26.9,-6.8,E,20.66,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Shrub,E,A,Anacardiaceae,Pistacia_lentiscus,1,-27.61,-7.8,E,20.37,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Shrub,E,A,Ericaceae,Rhododendron_ferrugineum,1,-25.54,-7.8,E,18.2,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,D,A,Betulaceae,Alnus_glutinosa,1,-28.82,-7.8,E,21.64,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,D,A,Betulaceae,Betula_pendula,1,-25.96,-7.8,E,18.64,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,D,A,Buxaceae,Buxus_sempervirens,1,-23.67,-7.8,E,16.25,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,E,A,Fabaceae,Ceratonia_siliqua,1,-26.84,-7.8,E,19.57,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,E,G,Cupressaceae,Juniperus_communis,1,-25.77,-7.8,E,18.45,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,E,G,Pinaceae,Pinus_pinea,1,-27.61,-7.8,E,20.37,,,,Spain H,EU,,,,,,,,,,,,
+Penuelas and Azcon-Bieto (23),Tree,E,G,Pinaceae,Pinus_uncinata,1,-25.43,-7.8,E,18.09,,,,Spain H,EU,,,,,,,,,,,,
+Van de Water et al. (24),Shrub,D,A,Rosaceae,Amelanchier_utahensis,88,-25,-7.85,E,17.59,16.49,,,UT USA A,NAm,,,,,,,,,,,XWS,XWS
+Van de Water et al. (24),Shrub,D,A,Rosaceae,Cercocarpus_montanus,64,-25.3,-7.85,E,17.9,,,,UT USA A,NAm,,,,,,,,,,,XWS,XWS
+Van de Water et al. (24),Shrub,D,A,Rosaceae,Cowania_mexicana,48,-25.1,-7.85,E,17.69,,,,UT USA A,NAm,,,,,,,,,,,XWS,XWS
+Van de Water et al. (24),Tree,E,G,Pinaceae,Pinus_edulis,83,-21,-7.85,E,13.43,,,,UT USA A,NAm,,,,,,,,,,,XWS,XWS
+Van de Water et al. (24),Tree,E,G,Cupressaceae,Juniperus_osteosperma,121,-23.3,-7.85,E,15.82,,,,UT USA A,NAm,,,,,,,,,,,XWS,XWS
+Van de Water et al. (24),Shrub,D,A,Rosaceae,Cercocarpus_montanus,55,-24.9,-7.85,E,17.49,16.22,,,NM USA ,NAm,,,,,,,,,,,XWS,XWS
+Van de Water et al. (24),Tree,E,G,Pinaceae,Pinus_edulis,44,-21.8,-7.85,E,14.26,,,,NM USA ,NAm,,,,,,,,,,,XWS,XWS
+Van de Water et al. (24),Tree,E,G,Cupressaceae,Juniperus_coahuilensis,9,-22.8,-7.85,E,15.3,,,,NM USA ,NAm,,,,,,,,,,,XWS,XWS
+Van de Water et al. (24),Tree,E,G,Cupressaceae,Juniperus_deppeana,24,-25,-7.85,E,17.59,,,,NM USA ,NAm,,,,,,,,,,,XWS,XWS
+Van de Water et al. (24),Tree,E,G,Cupressaceae,Juniperus_monosperma,35,-23.9,-7.85,E,16.44,,,,NM USA ,NAm,,,,,,,,,,,XWS,XWS
+Gerdol et al. (25),Shrub,D,A ,Ericaceae,Vaccinium_myrtillus,10,-30.12,-7.91,E,22.9,22.06,46.35,11.83,"Falcade, Italy",EU,1600,1200,375.99,2.1,10,2.38,722.5,45.4,17.7,37,CCEF,CCF
+Gerdol et al. (25),Shrub,E,A ,Ericaceae,Vaccinium_vitis-idaea,10,-28.53,-7.91,E,21.23,,46.35,11.83,"Falcade, Italy",EU,1600,1200,375.99,2.1,10,2.38,722.5,45.4,17.7,37,CCEF,CCF
+Donovan and Ehleringer (26),Shrub,D,A,Asteraceae,Artemisia_tridentata,10,,-8,E,20.17,19.77,40.8,-111.78,"Red Butte Canyon, UT USA A",NAm,1630,795.09,94.14,7.2,17.8,11.99,1434,69.1,44.2,42,CCMF,CCF
+Donovan and Ehleringer (26),Shrub,D,A,Asteraceae,Chrysothamnus_nauseosus,46,,-8,E,20.01,,40.8,-111.78,"Red Butte Canyon, UT USA A",NAm,1630,795.09,94.14,7.2,17.8,11.99,1434,69.1,44.2,42,CCMF,CCF
+Donovan and Ehleringer (26),Tree,D,A,Sapindaceae,Acer_negundo,37,,-8,E,19.15,,40.8,-111.78,"Red Butte Canyon, UT USA A",NAm,1630,795.09,94.14,7.2,17.8,11.99,1434,69.1,44.2,42,CCMF,CCF
+Donovan and Ehleringer (26),Shrub,D,A,Salicaceae,Salix_exigua,9,,-8,E,19.73,,40.8,-111.78,"Red Butte Canyon, UT USA A",NAm,1630,795.09,94.14,7.2,17.8,11.99,1434,69.1,44.2,42,CCMF,CCF
+Donovan and Ehleringer (26),Shrub,D,A,Asteraceae,Chrysothamnus_nauseosus,13,,-8,E,18.54,,39.92,-112.05,"Tintic, UT USA ",NAm,1775,452.39,83.55,8.4,19.2,14.46,1396.3,72.4,47.3,36,XWS,XWS
+Ehleringer et al. (27),Shrub,E,A,Asteraceae,Acamptopappus_sphaerocephalus,12,,-8,E,20,18.8,34.95,-114.42,AZ USA,NAm,785,198.81,41.28,20.4,30.7,32.78,2618.2,88.3,49.2,6,XWS,XWS
+Ehleringer et al. (27),Shrub,E,A,Asteraceae,Ambrosia_dumosa,15,,-8,E,19.1,,34.95,-114.42,AZ USA,NAm,785,198.81,41.28,20.4,30.7,32.78,2618.2,88.3,49.2,6,XWS,XWS
+Ehleringer et al. (27),Shrub,E,A,Asteraceae,Ambrosia_eriocentra,30,,-8,E,19.6,,34.95,-114.42,AZ USA,NAm,785,198.81,41.28,20.4,30.7,32.78,2618.2,88.3,49.2,6,XWS,XWS
+Ehleringer et al. (27),Shrub,E,A,Asteraceae,Encelia_farinosa,21,,-8,E,17.8,,34.95,-114.42,AZ USA,NAm,785,198.81,41.28,20.4,30.7,32.78,2618.2,88.3,49.2,6,XWS,XWS
+Ehleringer et al. (27),Shrub,E,A,Asteraceae,Hymenoclea_monogyra,24,,-8,E,18.5,,34.95,-114.42,AZ USA,NAm,785,198.81,41.28,20.4,30.7,32.78,2618.2,88.3,49.2,6,XWS,XWS
+Ehleringer (28),Shrub,E,A,Asteraceae,Encelia_farinosa,227,,-8,E,17.77,,34.95,-114.42,AZ USA,NAm,550,198.81,41.28,20.4,30.7,32.78,2618.2,88.3,49.2,6,XWS,XWS
+Kohorn et al. (29),Shrub,E,A,Simmondsiaceae,Simmondsia_chinensis,36,-24.8,-7.82,E,17.41,,33.95,-115.97,"Joshua Tree National Monument, CA USA ",NAm,884,146.61,32.52,19.9,29.5,28.24,2618.2,88.3,49.2,6,XWS,XWS
+Mooney et al. (30),Shrub,D,A,Solanaeceae,Capsicum_annuum,1,-28.7,-7.85,E,21.47,19.83,19.5,-105.05,Mexico,NAm,50,784,,26.1,28.3,11.07,1446.1,58,2.9,0,TDF,TDF
+Mooney et al. (30),Shrub,D,A,Euphorbiaceae,Croton_pseudoniveus,6,-28.1,-7.8,E,20.89,,19.5,-105.05,Mexico,NAm,50,784,,26.1,28.3,11.07,1446.1,58,2.9,0,TDF,TDF
+Mooney et al. (30),Shrub,D,A,Erthroxylaceae,Erythroxylum_havanense,1,-27,-7.8,E,19.73,,19.5,-105.05,Mexico,NAm,50,784,,26.1,28.3,11.07,1446.1,58,2.9,0,TDF,TDF
+Mooney et al. (30),Shrub,D,A,Rubiaceae,Hamelia_versicolor,1,-27.4,-7.8,E,20.15,,19.5,-105.05,Mexico,NAm,50,784,,26.1,28.3,11.07,1446.1,58,2.9,0,TDF,TDF
+Mooney et al. (30),Shrub,D,A,Theophrastaceae,Jacquinia_pungens,8,-25.7,-7.8,E,18.37,,19.5,-105.05,Mexico,NAm,50,784,,26.1,28.3,11.07,1446.1,58,2.9,0,TDF,TDF
+Mooney et al. (30),Shrub,D,A,Apocynaceae,Stemmadenia_sp,1,-28.8,-7.8,E,21.62,,19.5,-105.05,Mexico,NAm,50,784,,26.1,28.3,11.07,1446.1,58,2.9,0,TDF,TDF
+Mooney et al. (30),Shrub,D,A,Apocynaceae,Thevetia_ovata,1,-27.6,-7.8,E,20.36,,19.5,-105.05,Mexico,NAm,50,784,,26.1,28.3,11.07,1446.1,58,2.9,0,TDF,TDF
+Mooney et al. (30),Tree,D,A,Fabaceae,Acacia_angustissima,1,-26.9,-7.8,E,19.63,,19.5,-105.05,Mexico,NAm,50,784,,26.1,28.3,11.07,1446.1,58,2.9,0,TDF,TDF
+Mooney et al. (30),Tree,D,A,Fabaceae,Apoplanesia_paniculata,1,-27.3,-7.8,E,20.05,,19.5,-105.05,Mexico,NAm,50,784,,26.1,28.3,11.07,1446.1,58,2.9,0,TDF,TDF
+Mooney et al. (30),Tree,D,A,Burseraceae,Bursera_instabilis,1,-26.8,-7.8,E,19.52,,19.5,-105.05,Mexico,NAm,50,784,,26.1,28.3,11.07,1446.1,58,2.9,0,TDF,TDF
+Mooney et al. (30),Tree,D,A,Fabaceae,Caesalpinia_coriaria,1,-26.9,-7.8,E,19.63,,19.5,-105.05,Mexico,NAm,50,784,,26.1,28.3,11.07,1446.1,58,2.9,0,TDF,TDF
+Mooney et al. (30),Tree,D,A,Fabaceae,Caesa_pinia,1,-26.5,-7.8,E,19.21,,19.5,-105.05,Mexico,NAm,50,784,,26.1,28.3,11.07,1446.1,58,2.9,0,TDF,TDF
+Mooney et al. (30),Tree,D,A,Capparaceae,Capparis_indica,7,-27.5,-7.8,E,20.26,,19.5,-105.05,Mexico,NAm,50,784,,26.1,28.3,11.07,1446.1,58,2.9,0,TDF,TDF
+Mooney et al. (30),Tree,D,A,Flacourtiaceae,Casearia_corymbosa,1,-28.1,-7.8,E,20.89,,19.5,-105.05,Mexico,NAm,50,784,,26.1,28.3,11.07,1446.1,58,2.9,0,TDF,TDF
+Mooney et al. (30),Tree,D,A,Moraceae,Chlorophora_tinctoria,1,-26.7,-7.8,E,19.42,,19.5,-105.05,Mexico,NAm,50,784,,26.1,28.3,11.07,1446.1,58,2.9,0,TDF,TDF
+Mooney et al. (30),Tree,D,A,Verbenaceae,Citharexylum_sp,1,-24.8,-7.8,E,17.43,,19.5,-105.05,Mexico,NAm,50,784,,26.1,28.3,11.07,1446.1,58,2.9,0,TDF,TDF
+Mooney et al. (30),Tree,D,A,Polygonaceae,Coccoloba_liebmannii,5,-26.8,-7.8,E,19.52,,19.5,-105.05,Mexico,NAm,50,784,,26.1,28.3,11.07,1446.1,58,2.9,0,TDF,TDF
+Mooney et al. (30),Tree,D,A,Rhamnaceae,Colubrina_triflora,1,-27.6,-7.8,E,20.36,,19.5,-105.05,Mexico,NAm,50,784,,26.1,28.3,11.07,1446.1,58,2.9,0,TDF,TDF
+Mooney et al. (30),Tree,D,A,Boraginaceae,Cordia_alliodora,6,-28.5,-7.8,E,21.31,,19.5,-105.05,Mexico,NAm,50,784,,26.1,28.3,11.07,1446.1,58,2.9,0,TDF,TDF
+Mooney et al. (30),Tree,E,A,Capparaceae,Forchhammeria_pallida,3,-24.1,-7.8,E,16.7,,19.5,-105.05,Mexico,NAm,50,784,,26.1,28.3,11.07,1446.1,58,2.9,0,TDF,TDF
+Terwilliger (31),Tree,D,A,Malvaceae,Apeiba_membranacea,3,-30.3,-7.77,E,23.23,23.05,8.97,-79.38,Panama,NAm,85,1809.48,,26.7,26.8,5.25,1283.5,43.3,-6.4,0,TRF,TRF
+Terwilliger (31),Tree,D,A,Malvaceae,Apeiba_tibourbou,3,-29.5,-7.77,E,22.39,,8.97,-79.38,Panama,NAm,85,1809.48,,26.7,26.8,5.25,1283.5,43.3,-6.4,0,TRF,TRF
+Terwilliger (31),Tree,E,A,Cecropicaeae,Cecropia_insignis,3,-31.5,-7.77,E,24.5,,8.97,-79.38,Panama,NAm,85,1809.48,,26.7,26.8,5.25,1283.5,43.3,-6.4,0,TRF,TRF
+Terwilliger (31),Tree,E,A,Cecropicaeae,Cecropia_peltata,3,-29.2,-7.77,E,22.07,,8.97,-79.38,Panama,NAm,85,1809.48,,26.7,26.8,5.25,1283.5,43.3,-6.4,0,TRF,TRF
+Toft et al. (32),Shrub,E,A,Asteraceae,Artemisia_tridentata,16,-25.8,-7.62,E,18.66,,43.5,-112.97,ID USA A,NAm,1505,224.97,55.59,7.6,18.5,12.1,1241.4,65.6,51.7,52,XWS,XWS
+Zhang et al. (33),Tree,E,G,Pinaceae,Pseudotsuga_menziesii,25,,-8,E,20.81,,50.42,-118.93,"Enerby, BC Canada ",NAm,600,518,149.94,5,14.6,7.22,976.4,34.4,32.6,35,CCEF,CCF
+Zhang et al. (34),Tree,D,G,Pinaceae,Larix_occidentalis,30,,-8,E,19.91,,46.72,-117,"Moscow, ID USA ",NAm,790,675.65,102.52,10.2,20,12.99,1162,58.3,28.8,31,CCMF,CCF
+Dungait et al. (35),Tree,D,A,Sapindaceae,Acer_campestre,1,-27.5,-7.99,E,20.06,20.41,51.77,-1.28,"Port Meadow Oxford,  UK ",EU,60,420,157.44,10.3,16.5,5.68,673.2,32.2,7.2,38,CCDF,CCF
+Dungait et al. (35),Tree,D,A,Rosaceae,Malus_sylvestris,1,-27.3,-7.99,E,19.85,,51.77,-1.28,"Port Meadow Oxford,  UK ",EU,60,420,157.44,10.3,16.5,5.68,673.2,32.2,7.2,38,CCDF,CCF
+Dungait et al. (35),Tree,D,A,Salicaceae,Salix_fragilis,1,-28.7,-7.99,E,21.32,,51.77,-1.28,"Port Meadow Oxford,  UK ",EU,60,420,157.44,10.3,16.5,5.68,673.2,32.2,7.2,38,CCDF,CCF
+Li et al. (18),Tree,E,G,Pinaceae,Pinus_elliottii,13,-29.9,-8.07,E,22.5,22.11,26.43,115.03,China A,AS,83,1461,468.06,19.1,27.7,9.25,1017.1,31,68.2,2,EWMF,EWMF
+Li et al. (18),Tree,E,G,Cupressaceae,Cunninghamia_lanceolata,13,-29.16,-8.07,E,21.72,,26.43,115.03,China A,AS,72,1461,468.06,19.1,27.7,9.25,1015.8,30.9,68.8,2,EWMF,EWMF
+Hemming et al. (37),Tree,E,G,Pinaceae,Picea_abies,1,,,M,20.69,,49.5,18.5,Czech Republic ,EU,898,1100,371.01,7.35,16.4,5.36,531,31.9,21.5,38,CCMF,CCF
+Hemming et al. (37),Tree,D,A,Fagaceae,Fagus_sylvatica,1,,,M,20.58,,42.4,11.9,Italy B,EU,1150,1180,96.6,15,24.1,12.33,593.4,39.5,30.6,18,EWMF,EWMF
+Hemming et al. (37),Tree,E,G,Pinaceae,Picea_sitchensis,1,,,M,23.95,,52.3,-7.9,Ireland ,EU,260,804,232.86,9.6,14.5,3.92,445.8,27.6,1.4,13,CCMF,CCF
+Hemming et al. (37),Tree,E,G,Pinaceae,Picea_sitchensis,1,,,M,21.78,,56.6,-3.8,Scotland ,EU,340,1200,194.1,6.1,11.9,3.44,388.6,27.5,17.1,7,CCMF,CCF
+Hemming et al. (37),Tree,D,A,Fagaceae,Fagus_sylvatica,1,,,M,23.38,,51.1,10.5,Germany A,EU,445,750,183.57,8.7,16.6,6,612.1,31.9,17.6,28,CCDF,CCF
+Hemming et al. (37),Tree,D,A,Fagaceae,Fagus_sylvatica,1,,,M,21.11,,48.6,7.1,France ,EU,300,885,244.92,10.1,18.4,7.27,625.3,24.4,19.4,19,CCDF,CCF
+Hemming et al. (37),Tree,E,G,Pinaceae,Pinus_sylvestris,1,,,M,19.47,,61.5,24.2,Finland A,EU,170,640,220.83,4.2,15.1,5.47,402.5,31.4,30.3,27,CCEF,CCF
+Hemming et al. (37),Tree,E,G,Pinaceae,Abies_alba,1,,,M,19.69,,45.9,11.3,Italy C,EU,150,1150,296.04,8.2,17.1,5.21,697.7,32.1,31.2,14,CCMF,CCF
+Hemming et al. (37),Tree,E,G,Pinaceae,Pinus_sylvestris,1,,,M,20.98,,52.1,5.6,Netherlands ,EU,25,786,230.85,9.9,16.8,5.24,580.1,24.7,11.2,16,CCMF,CCF
+Hemming et al. (37),Tree,E,G,Pinaceae,Pinus_sylvestris,1,,,M,22.04,,67.4,26.7,Finland B,EU,180,500,193.26,0.1,13,4.78,348.7,27.5,33.6,56,CCEF,CCF
+Hemming et al. (37),Tree,D,A,Fagaceae,Fagus_sylvatica,1,,,M,24.05,,55,11.6,Denmark ,EU,42,510,169.98,9,16.6,4.9,595.2,36.8,13.5,18,CCMF,CCF
+Hemming et al. (37),Tree,E,G,Pinaceae,Picea_abies,1,,,M,19.15,,50.9,13.5,Germany B,EU,380,820,251.46,8.6,17.6,6.93,673.6,35.2,20.6,24,CCMF,CCF
+Hemming et al. (37),Tree,E,G,Pinaceae,Pinus_halpensis,1,,,M,15.05,,31.2,35,Israel ,AS,680,275,0,20.1,26.1,16.32,1498.2,72.5,30.7,3,XWS,XWS
+Sandquist and Cordell (38),Tree,E,A,Rhamnaceae,Colubrina_oppositifolia,5,-25.14,-8.05,E,17.53,19.02,19.77,-155.93,HI USA ,OC,650,487.1,,19.7,19.1,6.32,564.5,21.8,-8.4,0,TDF,TDF
+Sandquist and Cordell (38),Tree,E,A,Ebenaceae,Diospyros_sandwicensis,8,-27.135,-8.05,E,19.62,,19.77,-155.93,HI USA ,OC,650,487.1,,19.7,19.1,6.32,564.5,21.8,-8.4,0,TDF,TDF
+Sandquist and Cordell (38),Tree,E,A,Myrtaceae,Metrosideros_polymorpha,3,-28.1,-8.05,E,20.63,,19.77,-155.93,HI USA ,OC,650,487.1,,19.7,19.1,6.32,564.5,21.8,-8.4,0,TDF,TDF
+Sandquist and Cordell (38),Tree,E,A,Sapotaceae,Pouteria_sandwicensis,5,-27.095,-8.05,E,19.58,,19.77,-155.93,HI USA ,OC,650,487.1,,19.7,19.1,6.32,564.5,21.8,-8.4,0,TDF,TDF
+Sandquist and Cordell (38),Tree,E,A,Rubiaceae,Psydrax_odorata,5,-25.825,-8.05,E,18.25,,19.77,-155.93,HI USA ,OC,650,487.1,,19.7,19.1,6.32,564.5,21.8,-8.4,0,TDF,TDF
+Sandquist and Cordell (38),Tree,E,A,Santalaceae,Santalum_paniculatum,5,-26.065,-8.05,E,18.5,,19.77,-155.93,HI USA ,OC,650,487.1,,19.7,19.1,6.32,564.5,21.8,-8.4,0,TDF,TDF
+Dodd et al. (39),Tree,D,A,Salicaceae,Populus_sargentii,5,-28.46,-7.88,E,21.18,,40.85,-104.72,CO USA ,NAm,1650,370.5,145.71,9.1,19.9,11.14,1286.6,66.3,44.5,44,,
+Williams and Ehleringer (40),Tree,D,A,Fagaceae,Quercus_gambelii,12,,,E,18.2,,37.52,-113.33,UT USA B,NAm,1798,474.13,85.66,9.4,19.8,16.2,1574.9,70.4,43.9,37,XWS,XWS
+Williams and Ehleringer (40),Tree,E,A,Fagaceae,Quercus_turbinella,12,,,E,18,,37.33,-113.3,UT USA C,NAm,1340,350.17,64.88,10.8,21,17.88,1921.4,75.5,45.1,31,XWS,XWS
+He et al. (41),Tree,E,A,Dipterocarpaceae,Parashorea_chinensis,1,-27.75,-8.13,E,20.18,,21.6,101.58, China B,AS,900,1500,,21.1,24.2,5.21,1114.7,45.9,20,0,EWMF,EWMF
+Bai et al. (42),Shrub,E,A,Rhamnaceae,Condalia_hookeri,1,-27.8,-8.13,E,20.23,20.02,27.67,-98.2,TX USA ,NAm,80,687.7,201.68,22.6,29.6,13.38,1588.2,56.8,40.3,1,XWS,XWS
+Bai et al. (42),Shrub,E,A,Rutaceae,Zanthoxylum_fagara,1,-27.4,-8.13,E,19.81,,27.67,-98.2,TX USA ,NAm,81,687.7,201.68,22.6,29.6,13.38,1588.2,56.8,40.3,1,XWS,XWS
+Uemura et al. (43),Tree,D,A,Fagaceae,Fagus_crenata,1,-27.78,-8.05,E,20.29,19.93,36.97,140.6,Japan C,AS,700,1601,453.66,13.1,21.7,5.67,710.8,41.2,55.9,26,EWMF,EWMF
+Uemura et al. (43),Tree,D,A,Fagaceae,Fagus_japonica,1,-27.29,-8.05,E,19.78,,36.97,140.6,Japan C,AS,700,1601,453.66,13.1,21.7,5.67,710.8,41.2,55.9,26,EWMF,EWMF
+Uemura et al. (43),Tree,D,A,Betulaceae,Betula_grossa,1,-27.23,-8.05,E,19.72,,36.97,140.6,Japan C,AS,700,1601,453.66,13.1,21.7,5.67,710.8,41.2,55.9,26,EWMF,EWMF
+Buchmann et al. (44),Tree,E,G,Pinaceae,Abies_lasiocarpa,3,-24.5,-7.8,E,17.12,17.88,40.65,-110.9,"Broadhead Meadows Uinta Mtns, UT USA ",NAm,2800,979.5,142.71,0.9,10.9,8.94,1009.8,83.5,36,58,CCEF,CCF
+Buchmann et al. (44),Tree,E,G,Pinaceae,Pinus_contorta,9,-26.77,-7.8,E,19.49,,40.65,-110.9,"Broadhead Meadows Uinta Mtns, UT USA ",NAm,2800,979.5,142.71,0.9,10.9,8.94,1009.8,83.5,36,58,CCEF,CCF
+Buchmann et al. (44),Tree,E,G,Pinaceae,Picea_engelmanii,3,-24.4,-7.8,E,17.02,,40.65,-110.9,"Broadhead Meadows Uinta Mtns, UT USA ",NAm,2800,979.5,142.71,0.9,10.9,8.94,1009.8,83.5,36,58,CCEF,CCF
+Buchmann et al. (44),Tree,D,A,Salicaceae,Populus_tremuloides,12,-25.58,-7.8,E,18.25,,40.57,-111.33,"Soapstone Basin Uinta Mtns, UT USA ",NAm,2400,224.14,39.64,4.8,15.1,10.37,1138.6,79,39,56,CCMF,CCF
+Buchmann et al. (44),Tree,D,A,Sapindaceae,Acer_grandidentatum,9,-26.03,-7.8,E,18.72,19.41,40.78,-111.47,"Red Butte Canyon, UT USA B",NAm,1700,600.24,93.29,4.8,15.1,10.37,1430,69.6,43.6,46,CCMF,CCF
+Buchmann et al. (44),Tree,D,A,Sapindaceae,Acer_negundo,12,-27.35,-7.8,E,20.1,,40.78,-111.47,"Red Butte Canyon, UT USA B",NAm,1700,600.24,93.29,4.8,15.1,10.37,1430,69.6,43.6,46,CCMF,CCF
+Lockheart et al. (45),Tree,D,A,Fagaceae,Fagus_sylvatica,1,-26.4,-7.82,E,19.08,20.29,51.6,-2.22,"U.K. Arboretum,  UK ",EU,140,829.92,173.97,10.3,16.3,5.44,713.4,32.5,6.9,13,,
+Lockheart et al. (45),Tree,D,A,Fagaceae,Quercus_rober,1,-28.7,-7.82,E,21.5,,51.6,-2.22,"U.K. Arboretum,  UK ",EU,140,829.92,173.97,10.3,16.3,5.44,713.4,32.5,6.9,13,,
+Hultine and Marshall (46),Tree,E,G,Pinaceae,Pseudotsuga_menziesii,30,-25.7,-7.88,E,18.29,,44.13,-115.3,ID USA B,NAm,1500,797.68,92.03,3.6,13.2,9.28,1370,72.8,36.7,63,CCEF,CCF
+Hultine and Marshall (46),Tree,E,G,Pinaceae,Pinus_contorta,30,-27.4,-7.88,E,20.07,,47.03,-116.1,ID USA C,NAm,1500,1307.59,158.64,8.1,18,10.85,1161.8,72.2,25.6,69,CCEF,CCF
+Hultine and Marshall (46),Tree,E,G,Pinaceae,Abies_lasiocarpa,30,-27.3,-7.88,E,19.97,,47,-116.67,MT USA A,NAm,1500,737.23,92.62,9.4,19.3,11.99,1161.1,67.7,19.3,61,CCEF,CCF
+Hultine and Marshall (46),Tree,E,G,Pinaceae,Picea_engelmannii,30,-26.1,-7.88,E,18.71,,44.13,-115.3,MT USA B,NAm,1500,797.68,92.03,3.6,13.2,9.28,1370,72.8,36.7,63,CCEF,CCF
+Kloeppel et al. (5),Tree,D,G ,Pinaceae,Larix_gmelinii,2,-27.55,-7.9,E,20.21,20.1,30.82,102.98,China C,AS,3000-4000,840.96,444.69,9.5,13,6.18,745.9,33.1,36.7,42,CCEF,CCF
+Kloeppel et al. (5),Tree,E,G ,Pinaceae,Picea_sp,3,-27.56,-7.9,E,20.22,,30.82,102.98,China C,AS,3000-4000,840.96,444.69,9.5,13,6.18,745.9,33.1,36.7,42,CCEF,CCF
+Kloeppel et al. (5),Tree,D,G ,Pinaceae,Larix_olgenisis,2,-27.82,-7.9,E,20.49,,30.82,102.98,China C,AS,3000-4000,840.96,444.69,9.5,13,6.18,745.9,33.1,36.7,42,CCEF,CCF
+Kloeppel et al. (5),Tree,E,G ,Pinaceae,Pinus_sylvestris,2,-26.86,-7.9,E,19.48,,30.82,102.98,China C,AS,3000-4000,840.96,444.69,9.5,13,6.18,745.9,33.1,36.7,42,CCEF,CCF
+Nagy and Proctor (47),Tree,E,A,Dipterocarpaceae,Cotylelobium_burckii,6,-31.33,-7.85,E,24.24,23.65,-0.07,114.02,Borneo ,AS,300,3700,,25.7,24.7,5.42,942.1,41.9,100,0,TRF,TRF
+Nagy and Proctor (47),Tree,E,A,Dipterocarpaceae,Cotylelobium_melanoxylon,5,-30.84,-7.85,E,23.72,,-0.07,114.02,Borneo ,AS,300,3700,,25.7,24.7,5.42,942.1,41.9,100,0,TRF,TRF
+Nagy and Proctor (47),Tree,E,A,Clusiaceae,Cratoxylum_glaucum,4,-31.29,-7.85,E,24.2,,-0.07,114.02,Borneo ,AS,300,3700,,25.7,24.7,5.42,942.1,41.9,100,0,TRF,TRF
+Nagy and Proctor (47),Tree,E,A,Myrtaceae,Eugenia_ecostulata,6,-31.06,-7.85,E,23.95,,-0.07,114.02,Borneo ,AS,300,3700,,25.7,24.7,5.42,942.1,41.9,100,0,TRF,TRF
+Nagy and Proctor (47),Tree,E,A,Dipterocarpaceae,Shorea_scabrida,6,-29.89,-7.85,E,22.72,,-0.07,114.02,Borneo ,AS,300,3700,,25.7,24.7,5.42,942.1,41.9,100,0,TRF,TRF
+Nagy and Proctor (47),Tree,E,A,Anacardiaceae,Swintonia_glauca,5,-30.28,-7.85,E,23.13,,-0.07,114.02,Borneo ,AS,300,3700,,25.7,24.7,5.42,942.1,41.9,100,0,TRF,TRF
+Nagy and Proctor (47),Tree,E,A,Myrtaceae,Tristaniopsis_obovata,4,-30.19,-7.85,E,23.04,,-0.07,114.02,Borneo ,AS,300,3700,,25.7,24.7,5.42,942.1,41.9,100,0,TRF,TRF
+Nagy and Proctor (47),Tree,E,A,Dipterocarpaceae,Vatica_brunigii,6,-31.03,-7.85,E,23.92,,-0.07,114.02,Borneo ,AS,300,3700,,25.7,24.7,5.42,942.1,41.9,100,0,TRF,TRF
+Nagy and Proctor (47),Tree,E,A,Dipterocarpaceae,Cotylelobium_melanoxylon,3,-30.25,-7.85,E,23.1,,-0.07,114.02,Borneo ,AS,300,3700,,25.7,24.7,5.42,942.1,41.9,100,0,TRF,TRF
+Nagy and Proctor (47),Tree,E,A,Dipterocarpaceae,Dipterocarpus_eurynchus,3,-30.39,-7.85,E,23.25,,-0.07,114.02,Borneo ,AS,300,3700,,25.7,24.7,5.42,942.1,41.9,100,0,TRF,TRF
+Nagy and Proctor (47),Tree,E,A,Dipterocarpaceae,Shorea_amplexicaulis,3,-31.19,-7.85,E,24.09,,-0.07,114.02,Borneo ,AS,300,3700,,25.7,24.7,5.42,942.1,41.9,100,0,TRF,TRF
+Nagy and Proctor (47),Tree,E,A,Dipterocarpaceae,Shorea_leprosula,3,-31.6,-7.85,E,24.52,,-0.07,114.02,Borneo ,AS,300,3700,,25.7,24.7,5.42,942.1,41.9,100,0,TRF,TRF
+Nagy and Proctor (47),Tree,E,A,Dipterocarpaceae,Shorea_pinanga,2,-29.54,-7.85,E,22.35,,-0.07,114.02,Borneo ,AS,300,3700,,25.7,24.7,5.42,942.1,41.9,100,0,TRF,TRF
+Nagy and Proctor (47),Tree,E,A,Dipterocarpaceae,Shorea_rugosa,3,-32.34,-7.85,E,25.31,,-0.07,114.02,Borneo ,AS,300,3700,,25.7,24.7,5.42,942.1,41.9,100,0,TRF,TRF
+Nagy and Proctor (47),Tree,E,A,Anacardiaceae,Swintonia_glauca,2,-30.41,-7.85,E,23.27,,-0.07,114.02,Borneo ,AS,300,3700,,25.7,24.7,5.42,942.1,41.9,100,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Caesalpiniaceae,Dicorynia_guianensis,1,-29,-7.93,E,21.7,23.67,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Caesalpiniaceae,Eperua_falcata,1,-28.5,-7.93,E,21.17,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Caesalpiniaceae,Recordoxylon_venosa,1,-28,-7.93,E,20.65,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Caesalpiniaceae,Swartzia_polyphylla,1,-29.2,-7.93,E,21.91,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Caesalpiniaceae,Vouacapoua_americana,1,-32.4,-7.93,E,25.29,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Caryocaraceae,Caryocar_glabrum,1,-29.4,-7.93,E,22.12,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Clusiaceae,Moronobea_coccinea,1,-30.8,-7.93,E,23.6,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Elaeocarpaceae,Sloanea_sp,1,-27.9,-7.93,E,20.54,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Fabaceae,Andira_coriacea,1,-30.8,-7.93,E,23.6,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Lecythidaceae,Couratari_guianensis,1,-30.9,-7.93,E,23.7,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Lecythidaceae,Lecythis_idatimon,1,-31.5,-7.93,E,24.34,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Lecythidaceae,Lecythis_zabucajo,1,-27.7,-7.93,E,20.33,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Mimosaceae,Abarema_jupunba,1,-29.4,-7.93,E,22.12,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Mimosaceae,Balizia_pedicellaris,1,-29.5,-7.93,E,22.23,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Mimosaceae,Inga_alba,1,-32.4,-7.93,E,25.29,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Mimosaceae,Parkia_nitida,1,-31.5,-7.93,E,24.34,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Moraceae,Brosimum_acutifolium,1,-31.6,-7.93,E,24.44,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Sapotaceae,Chrysophyllum_prieurii,1,-29.7,-7.93,E,22.44,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Sapotaceae,Pradosia_cochlearia,1,-30.6,-7.93,E,23.39,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Tiliaceae,Lueheopsis_rugosa,1,-32.7,-7.93,E,25.61,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Vocysiaceae,Ruizterania_albiflora,1,-28.9,-7.93,E,21.59,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Annonaceae,Xylopia_sp,1,-32.5,-7.93,E,25.4,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Bignoniaceae,Jacaranda_copaia,1,-31.6,-7.93,E,24.44,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Burseraceae,Protium_sp,1,-31.7,-7.93,E,24.55,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Caesalpiniaceae,Bocoa_prouacensis,1,-31.8,-7.93,E,24.65,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Caesalpiniaceae,Eperua_grandiflora,1,-28.9,-7.93,E,21.59,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Caesalpiniaceae,Sclerolobium_melinonii,1,-30,-7.93,E,22.75,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Celastraceae,Goupia_glabra,1,-29.9,-7.93,E,22.65,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Chrysobalanaceae,Licania_alba,1,-32.1,-7.93,E,24.97,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Chrysobalanaceae,Licania_membranacea,1,-32,-7.93,E,24.87,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Chrysobalanaceae,Licania_ovalifolia,1,-31.8,-7.93,E,24.65,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Chrysobalanaceae,Parinari_sp,1,-31.5,-7.93,E,24.34,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Chrysobalanaceae,Parinari_montana,1,-29.8,-7.93,E,22.54,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Clusiaceae,Symphonia_sp,1,-30.1,-7.93,E,22.86,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Clusiaceae,Tovomita_sp,1,-32.5,-7.93,E,25.4,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Elaeocarpaceae,Chaetocarpus_schomburg,1,-31.3,-7.93,E,24.13,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Elaeocarpaceae,Drypetes_variabilis,1,-31,-7.93,E,23.81,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Fabaceae,Diplotropis_purpurea,1,-30.7,-7.93,E,23.49,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Hugoniaceae,Hebepetalum_humiriifoli,1,-31.8,-7.93,E,24.65,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Icacinaceae,Dendrobangia_boliviana,1,-31.1,-7.93,E,23.91,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Lauraceae,Ocotea_rubra,1,-31.9,-7.93,E,24.76,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Lecythidaceae,Eschweilera_sp,1,-31,-7.93,E,23.81,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Lecythidaceae,Gustavia_hexapetala,1,-32,-7.93,E,24.87,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Melastomataceae,Mouriri_crassifolia,1,-30.9,-7.93,E,23.7,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Meliaceae,Carapa_procera,1,-29.2,-7.93,E,21.91,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Meliaceae,Trichilia_sp,1,-30.8,-7.93,E,23.6,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Moraceae,Brosimum_rubescens,1,-31.1,-7.93,E,23.91,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Moraceae,Helicostylis_pedonculata,1,-30.3,-7.93,E,23.07,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Myristicaceae,Iryanthera_sagotiana,1,-33.2,-7.93,E,26.14,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Myristicaceae,Iryanthera_hostmanii,1,-32.4,-7.93,E,25.29,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Olacaceae,Minquartia_guianensis,1,-32.4,-7.93,E,25.29,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Rubiaceae,Posoqueria_latifolia,1,-32.7,-7.93,E,25.61,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Sapotaceae,Chrysophyllum_sanguino,1,-30.3,-7.93,E,23.07,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Sapotaceae,Micropholis_guianensisa,1,-31.4,-7.93,E,24.23,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Sapotaceae,Micropholis_obscura,1,-30.8,-7.93,E,23.6,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Simaroubaceae,Simaba_cedron,1,-31.6,-7.93,E,24.44,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,,A,Boraginaceae,Cordia_sp,1,-33.1,-7.93,E,26.03,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,,A,Chrysobalanaceae,Licania_sp2,1,-32.5,-7.93,E,25.4,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,,A,Chrysobalanaceae,Licania_sp1,1,-30.6,-7.93,E,23.39,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,,A,Lecythidaceae,Lecythis_hartacea,1,-30.8,-7.93,E,23.6,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,,A,Mimosaceae,Inga_thibaudiana,1,-29.7,-7.93,E,22.44,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,,A,Sterculiaceae,Sterculia_sp,1,-30.8,-7.93,E,23.6,,5.33,-52.83,"Paracou, French Guia",SA,40,2900,,26.6,26.6,4.73,1117,50.4,7.1,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Bombacaeae,Catostemma_fragrans,1,-30.4,-7.93,E,23.17,23.35,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Caesalpiniaceae,Dicorynia_guianensis,1,-28.6,-7.93,E,21.28,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Caesalpiniaceae,Eperua_falcata,1,-28.6,-7.93,E,21.28,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Caesalpiniaceae,Peltogyne_venosa,1,-29.7,-7.93,E,22.44,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Caesalpiniaceae,Swartzia_polyphylla,1,-28.4,-7.93,E,21.07,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Caesalpiniaceae,Vouacapoua_americana,1,-30.7,-7.93,E,23.49,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Clusiaceae,Moronobea_coccinea,1,-30.3,-7.93,E,23.07,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Elaeocarpaceae,Glycydendron_amazoni,1,-30.8,-7.93,E,23.6,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Lecythidaceae,Lecythis_idatimon,1,-31.4,-7.93,E,24.23,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Mimosaceae,Abarema_jupunba,1,-29.4,-7.93,E,22.12,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Mimosaceae,Abarema_curvicarpa,1,-29.2,-7.93,E,21.91,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Mimosaceae,Balizia_pedicellaris,1,-28.3,-7.93,E,20.96,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Mimosaceae,Pseudopiptadenia_suaveol,1,-29,-7.93,E,21.7,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Anacardiaceae,Thyrsodium_guianense,1,-30.2,-7.93,E,22.96,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Burseraceae,Protium_subserratum,1,-31.1,-7.93,E,23.91,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Burseraceae,Tetragastris_panamensis,1,-28.7,-7.93,E,21.38,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Caesalpiniaceae,Bocoa_prouacensis,1,-29.7,-7.93,E,22.44,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Caesalpiniaceae,Eperua_grandiflora,1,-29.5,-7.93,E,22.23,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Caesalpiniaceae,Sclerolobium_albiflorum,1,-30,-7.93,E,22.75,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Caesalpiniaceae,Sclerolobium_melinonii,1,-28.6,-7.93,E,21.28,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Chrysobalanaceae,Couepia_caryophylloides,1,-30.7,-7.93,E,23.49,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Chrysobalanaceae,Licania_membranacea,1,-32,-7.93,E,24.87,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Chrysobalanaceae,Licania_alba,1,-31.6,-7.93,E,24.44,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Clusiaceae,Symphonia_sp,1,-30.2,-7.93,E,22.96,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Elaeocarpaceae,Chaetocarpus_schomburg,1,-33.8,-7.93,E,26.77,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Fabaceae,Diplotropis_purpurea,1,-31.2,-7.93,E,24.02,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Humiriaceae,Humiriastrum_subcrenat,1,-34.8,-7.93,E,27.84,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Humiriaceae,Vantanea_parviflora,1,-30.1,-7.93,E,22.86,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Icacinaceae,Dendrobangia_boliviana,1,-31.5,-7.93,E,24.34,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Icacinaceae,Poraqueiba_guianensis,1,-32.9,-7.93,E,25.82,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Lauraceae,Ocotea_rubra,1,-29.1,-7.93,E,21.8,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Lecythidaceae,Eschweilera_sagotiana,1,-32.2,-7.93,E,25.08,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Lecythidaceae,Eschweilera_micrantha,1,-31.8,-7.93,E,24.65,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Lecythidaceae,Eschweilera_decolorans,1,-31.1,-7.93,E,23.91,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Lecythidaceae,Eschweilera_parviflora,1,-30.7,-7.93,E,23.49,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Lecythidaceae,Lecythis_persistens,1,-30.7,-7.93,E,23.49,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Melastomataceae,Mouriri_crassifolia,1,-29.4,-7.93,E,22.12,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Meliaceae,Carapa_procera,1,-31.1,-7.93,E,23.91,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Moraceae,Brosimum_guianense,1,-29.6,-7.93,E,22.33,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Myristicaceae,Iryanthera_sagotiana,1,-32.6,-7.93,E,25.5,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Myristicaceae,Virola_michelii,1,-31.7,-7.93,E,24.55,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Rubiaceae,Posoqueria_latifolia,1,-32.7,-7.93,E,25.61,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Sapotaceae,Micropholis_obscura,1,-31,-7.93,E,23.81,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Sapotaceae,Pouteria_guianensis,1,-32.8,-7.93,E,25.71,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,,A,Mimosaceae,Inga_paraensis,1,-28.3,-7.93,E,20.96,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,,A,Sapotaceae,Ecclinusa_guianensis,1,-29.9,-7.93,E,22.65,,5.3,-53.5,"St-Elie DVD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Apocynaceae,Couma_guianensis,1,-28.9,-7.93,E,21.59,23.17,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Bombacaeae,Catostemma_fragrans,1,-31.4,-7.93,E,24.23,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Caesalpiniaceae,Dicorynia_guianensis,1,-28,-7.93,E,20.65,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Caesalpiniaceae,Eperua_falcata,1,-28.3,-7.93,E,20.96,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Caesalpiniaceae,Peltogyne_venosa,1,-27.9,-7.93,E,20.54,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Caesalpiniaceae,Vouacapoua_americana,1,-31.1,-7.93,E,23.91,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Caryocaraceae,Caryocar_glabrum,1,-29.4,-7.93,E,22.12,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Clusiaceae,Platonia_insignis,1,-28,-7.93,E,20.65,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Elaeocarpaceae,Hevea_guianensis,1,-29.2,-7.93,E,21.91,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Lecythidaceae,Lecythis_idatimon,1,-32,-7.93,E,24.87,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Mimosaceae,Abarema_jupunba,1,-29.1,-7.93,E,21.8,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Mimosaceae,Balizia_pedicellaris,1,-27.5,-7.93,E,20.12,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Mimosaceae,Parkia_nitida,1,-31.3,-7.93,E,24.13,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Sapotaceae,Chrysophyllum_prieurii,1,-30,-7.93,E,22.75,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,D,A,Vocysiaceae,Ruizterania_albiflora,1,-28.2,-7.93,E,20.86,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Araliaceae,Schefflera_decaphylla,1,-30.2,-7.93,E,22.96,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Burseraceae,Dacryodes_nitens,1,-31.7,-7.93,E,24.55,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Caesalpiniaceae,Bocoa_prouacensis,1,-30.7,-7.93,E,23.49,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Caesalpiniaceae,Eperua_grandiflora,1,-28.9,-7.93,E,21.59,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Caesalpiniaceae,Sclerolobium_melinonii,1,-30.1,-7.93,E,22.86,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Celastraceae,Goupia_glabra,1,-30,-7.93,E,22.75,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Chrysobalanaceae,Couepia_guianensis,1,-31.7,-7.93,E,24.55,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Chrysobalanaceae,Couepia_caryophylloides,1,-29.6,-7.93,E,22.33,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Chrysobalanaceae,Licania_membranacea,1,-33.4,-7.93,E,26.35,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Chrysobalanaceae,Licania_alba,1,-31.5,-7.93,E,24.34,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Chrysobalanaceae,Licania_granvillei,1,-31,-7.93,E,23.81,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Chrysobalanaceae,Parinari_excelsa,1,-30.8,-7.93,E,23.6,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Clusiaceae,Symphonia_sp,1,-30.4,-7.93,E,23.17,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Elaeocarpaceae,Amanoa_congesta,1,-28.4,-7.93,E,21.07,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Elaeocarpaceae,Chaetocarpus_schomburg,1,-31.9,-7.93,E,24.76,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Flacourtiaceae,Laetia_procera,1,-31.3,-7.93,E,24.13,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Humiriaceae,Humiriastrum_subcrenat,1,-32.7,-7.93,E,25.61,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Humiriaceae,Vantanea_parviflora,1,-31.3,-7.93,E,24.13,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Icacinaceae,Dendrobangia_boliviana,1,-31.1,-7.93,E,23.91,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Lecythidaceae,Eschweilera_parviflora,1,-33.2,-7.93,E,26.14,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Lecythidaceae,Eschweilera_sagotiana,1,-31.3,-7.93,E,24.13,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Lecythidaceae,Eschweilera_micrantha,1,-31.3,-7.93,E,24.13,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Lecythidaceae,Eschweilera_coriacea,1,-31.1,-7.93,E,23.91,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Lecythidaceae,Eschweilera_decolorans,1,-29.8,-7.93,E,22.54,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Lecythidaceae,Lecythis_persistens,1,-32.1,-7.93,E,24.97,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Melastomataceae,Mouriri_crassifolia,1,-30.9,-7.93,E,23.7,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Meliaceae,Carapa_procera,1,-29.3,-7.93,E,22.02,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Myristicaceae,Iryanthera_sagotiana,1,-32.2,-7.93,E,25.08,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Myristicaceae,Iryanthera_hostmanii,1,-32,-7.93,E,24.87,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Myristicaceae,Virola_michelii,1,-31.2,-7.93,E,24.02,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Olacaceae,Minquartia_guianensis,1,-29.2,-7.93,E,21.91,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Rubiaceae,Posoqueria_latifolia,1,-28.9,-7.93,E,21.59,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Sapotaceae,Chrysophyllum_sanguino,1,-29.4,-7.93,E,22.12,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Sapotaceae,Micropholis_guianensisa,1,-32.4,-7.93,E,25.29,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Sapotaceae,Micropholis_venulosa,1,-30.6,-7.93,E,23.39,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Sapotaceae,Micropholis_guianensisa,1,-29.4,-7.93,E,22.12,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Sapotaceae,Pouteria_grandis,1,-30.4,-7.93,E,23.17,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Sapotaceae,Pouteria_melanopoda,1,-29.1,-7.93,E,21.8,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,E,A,Sapotaceae,Pouteria_eugeniifolia,1,-28.8,-7.93,E,21.49,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+Bonal et al. (48),Tree,,A,Chrysobalanaceae,Licania_glabriflora,1,-32.1,-7.93,E,24.97,,5.3,-53.5,"St-Elie SLD, French Guia",SA,80,3000,,26.2,26.2,7.82,1138.9,50.8,16.4,0,TRF,TRF
+"Wing and Koch, this study",Tree,E,A,Ericaceae,Arbutus_menziesii,3,-27.05,-7.93,E,19.65,20.59,37.01,-122.06,"Santa Cruz, CA USA",NAm,297,1089.6,12.2,14.5,17.8,5.99,1390.4,79.3,6.1,6,MED,MED
+"Wing and Koch, this study",Tree,E,A,Fagaceae,Quercus_agrifolia,3,-27.46,-7.93,E,20.08,,37.01,-122.06,"Santa Cruz, CA USA",NAm,297,1089.6,12.2,14.5,17.8,5.99,1390.4,79.3,6.1,6,MED,MED
+"Wing and Koch, this study",Tree,E,A,Lauraceae,Umbellularia_californica,2,-27.15,-7.93,E,19.76,,37.01,-122.06,"Santa Cruz, CA USA",NAm,297,1089.6,12.2,14.5,17.8,5.99,1390.4,79.3,6.1,6,MED,MED
+"Wing and Koch, this study",Shrub,E,A,Ericaceae,Vaccinium_ovatum,1,-28.22,-7.93,E,20.88,,37.01,-122.06,"Santa Cruz, CA USA",NAm,297,1089.6,12.2,14.5,17.8,5.99,1390.4,79.3,6.1,6,MED,MED
+"Wing and Koch, this study",Shrub,D,A,Betulaceae,Corylus_californica,3,-29.84,-7.93,E,22.58,,37.01,-122.06,"Santa Cruz, CA USA",NAm,297,1089.6,12.2,14.5,17.8,5.99,1390.4,79.3,6.1,6,MED,MED
