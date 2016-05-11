@@ -1,0 +1,25 @@
+Clade,Taxon Diversity,Source,PaleoDB occurence record
+Amelanchier 1,11,"Lo and Donaghue, 2012 in Manos and Meireles, 2015",https://paleobiodb.org/data1.2/occs/list.txt?datainfo&rowcount&base_name=Amelanchier&limit=1000
+Crataegus,50,"Lo et al, 2007, 2009 in Manos and Meireles, 2015",https://paleobiodb.org/data1.2/occs/list.txt?datainfo&rowcount&base_name=Crataegus&limit=1000
+Viburnum 2a,33,"Winkworth and Donoghue, 2005 ; Moore and Donoghue, 2007 ; Clement and Donoghue, 2011 ; Clement et al., 2014  in Manos and Meireles, 2015",https://paleobiodb.org/data1.2/occs/list.txt?datainfo&rowcount&base_name=viburnum&limit=1000
+Asimina,10,"Weakley, 2012  in Manos and Meireles, 2015",N/A
+Magnolia 3a,9,"None given  in Manos and Meireles, 2015",https://paleobiodb.org/data1.2/occs/list.txt?datainfo&rowcount&base_name=Magnolia&limit=1000
+Rhus 1,9,"Yi et al., 2004 , 2007 in Manos and Meireles, 2015",https://paleobiodb.org/data1.2/occs/list.txt?datainfo&rowcount&base_name=rhus&limit=1000
+Ptelea,11,"Poon et al, 2007; Weakley, 2012 in Manos and Meireles, 2015",N/A
+Lonicera 1a ,10,"Smith and Donoghue, 2010 in Manos and Meireles, 2015",N/A
+Symphoricarpos,10,"Bell, 2012 in Manos and Meireles, 2015",N/A
+Carya,12,"Zhang et al., 2013 in Manos and Meireles, 2015",https://paleobiodb.org/data1.2/occs/list.txt?datainfo&rowcount&base_name=Carya&limit=1000
+Vitis 1,15,"Trondle et al., 2010; Ren et al., 2011 in Manos and Meireles, 2015",https://paleobiodb.org/data1.2/occs/list.txt?datainfo&rowcount&base_name=Vitis&limit=1000
+Fraxinus 1,10,"Hinsinger et al., 2013 in Manos and Meireles, 2015",https://paleobiodb.org/data1.2/occs/list.txt?datainfo&rowcount&base_name=Fraxinus&limit=1000
+Ribes,10,"Schultheis and Donoghue, 2004 in Manos and Meireles, 2015",https://paleobiodb.org/data1.2/occs/list.csv?datainfo&rowcount&base_name=Ribes&limit=1000
+Quercus 1 ,130,"Manos and Stanford, 2001; Pears and Hipp, 2009 in Manos and Meireles, 2015",https://paleobiodb.org/data1.2/occs/list.txt?datainfo&rowcount&base_name=Quercus&limit=1000
+Hypericum,50,"Nurk et al., 2013 in Manos and Meireles, 2015",N/A
+Prunus 1,17,"Shaw and Small, 2005; Bortiri et al., 2001; Wen et al., 2008 in Manos and Meireles, 2015",https://paleobiodb.org/data1.2/occs/list.txt?datainfo&rowcount&base_name=Prunus&limit=1000
+Sideroxylon ,25,"Smedmark and Anderberg, 2007 in Manos and Meireles, 2015",N/A
+Juglans 2,16,"Manos et al., 2007, Stone et al., 2009 in Manos and Meireles, 2015",https://paleobiodb.org/data1.2/occs/list.txt?datainfo&rowcount&base_name=Juglans&limit=1000
+Ilex 3,11,"Selbach-Schnadelbach et al., 2009; Cuenoud et al., 2000 in Manos and Meireles, 2015",https://paleobiodb.org/data1.2/occs/list.txt?datainfo&rowcount&base_name=Ilex&limit=1000
+Ceanothus,55,"Burge et al., 2011 in Manos and Meireles, 2015",https://paleobiodb.org/data1.2/occs/list.txt?datainfo&rowcount&base_name=Ceanothus&limit=1000
+Gaylussacia 2,45,"Floyd, 2002 in Manos and Meireles, 2015",N/A
+Pinus 2,44,"Eckert and Hall, 2006; Parks et al., 2012 in Manos and Meireles, 2015",https://paleobiodb.org/data1.2/occs/list.txt?datainfo&rowcount&base_name=Pinus&limit=1000
+Quercus 2,120,"P.S. Manos, unpublished in Manos and Meireles, 2015",https://paleobiodb.org/data1.2/occs/list.txt?datainfo&rowcount&base_name=Pinus&limit=1000
+Robinia ,8,"Lavin et al., 2003 in Manos and Meireles, 2015",https://paleobiodb.org/data1.2/occs/list.txt?datainfo&rowcount&base_name=Robinia&limit=1000
