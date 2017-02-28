@@ -31,20 +31,12 @@ system.time(mangrovespecies<-BIEN_ranges_shapefile(ecos[ecos@data$BIOME=="14",])
 #want to check if occurrences are all that different
 
 
-#Old occurrence list code:
-#occurrence list file of the BIEN species and the biomes in which they occur
-BIENoccurrence_list<-NULL
-for(i in 1:length(BIENtrait3taxa$Species)){
-  print(i)
-  shpfile_i<-paste("C:/Users/Cecina/Desktop/plants/shpfiles/",BIENtrait3taxa$Species[i],".shp",sep="")
-  
-  if(file.exists(shpfile_i)){
-    BIENranges_i<-readShapePoly(shpfile_i,proj4string = P4S.latlon)
-    BIENecos_i<-ecos[BIENranges_i,]#Note this line of code. This way of subsetting GIS data is a REALLY powerful trick to know
-    BIENspecies<-BIENtrait3taxa$Species[i]  
-    if(length(BIENecos_i)>0){
-      BIENoccurrence_list<-rbind(BIENoccurrence_list,cbind(BIENspecies,unique(BIENecos_i@data[,4:18])))
-    }#if
-    
-  }#if
-}#file.exists
+#import dataset from Brian Maitner
+#rasterized all BIEN range maps
+#counted any cell as an occurrence if the range map covered at least 1% of the cell
+bien_8_25_2016_100km_1percent_occurrence_only <- read_csv("C:/Users/Cecina/Desktop/plants/bien_8_25_2016_100km_1percent_occurrence_only.csv")
+View(bien_8_25_2016_100km_1percent_occurrence_only)
+
+
+
+
