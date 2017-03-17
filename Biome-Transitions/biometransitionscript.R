@@ -47,13 +47,7 @@ area
 #The smallest biome is biome 14 (mangroves)
 #second smallest is biome 3 (subtropical and tropical coniferous forests)
 
-#Extract list of species within a given biome (doesn't currently work)
-mangrovespecies<-BIEN_ranges_shapefile(ecos[ecos@data$BIOME=="14",])
 
-#runs the command and records the time to run
-system.time(mangrovespecies<-BIEN_ranges_shapefile(ecos[ecos@data$BIOME=="14",]))
-
-#want to check if occurrences are all that different
 
 
 
