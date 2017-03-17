@@ -8,10 +8,35 @@ library(rgdal)
 library(sp)
 library(BIEN)
 
-#Save an object containing the coordinate reference system of WGS 84
-P4S.latlon <- CRS("+proj=longlat +datum=WGS84")
-#Read in biome shape files
-ecos<-readShapePoly("C:/Users/Cecina/Desktop/HypervolumeFiles/Terrestrial_Ecoregions/wwf_terr_ecos.shp",proj4string = P4S.latlon)
+#import dataset from Brian Maitner
+#rasterized all BIEN range maps
+#counted any cell as an occurrence if the range map covered at least 1% of the cell
+bien_8_25_2016_100km_1percent_occurrence_only <- read_csv("C:/Users/Cecina/Desktop/plants/bien_8_25_2016_100km_1percent_occurrence_only.csv")
+View(bien_8_25_2016_100km_1percent_occurrence_only)
+
+
+
+#import WWF biome maps
+biome<-readOGR(dsn = "C:/Users/Cecina/Desktop/HypervolumeFiles/Terrestrial_Ecoregions",layer ="wwf_terr_ecos" )
+#For shapefiles, the dsn is basically the folder containing the shapefile components
+#Note that there is no "/" at the end of the dsn
+#The field layer is basically the filename (without the .shp or any of the other stuff)
+#readOGR is a bit more confusing to use, but automatically imports the projections if they exist, making things easier
+
+biome@proj4string
+
+#Rasterize the biome according to the raster of the occurrence list
+emptyraster<-raster("blank_100km_raster.tif")
+#Get projection of the raster
+crs(emptyraster)
+
+#transform biomes to same projection as the raster
+biome_transform<-spTransform(x = biome,CRSobj = emptyraster@crs)
+
+plot(emptyraster)
+plot(biome_transform,add=T)
+
+
 
 #List of biomes and their areas
 area=NULL
@@ -31,11 +56,6 @@ system.time(mangrovespecies<-BIEN_ranges_shapefile(ecos[ecos@data$BIOME=="14",])
 #want to check if occurrences are all that different
 
 
-#import dataset from Brian Maitner
-#rasterized all BIEN range maps
-#counted any cell as an occurrence if the range map covered at least 1% of the cell
-bien_8_25_2016_100km_1percent_occurrence_only <- read_csv("C:/Users/Cecina/Desktop/plants/bien_8_25_2016_100km_1percent_occurrence_only.csv")
-View(bien_8_25_2016_100km_1percent_occurrence_only)
 
 
 
