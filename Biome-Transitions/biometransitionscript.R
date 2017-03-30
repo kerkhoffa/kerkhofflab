@@ -47,8 +47,13 @@ area
 #The smallest biome is biome 14 (mangroves)
 #second smallest is biome 3 (subtropical and tropical coniferous forests)
 
-
-
+#Create list of cells occupied by biomes
+biome_cells<-data.frame(nrow(nrow(biome_transform)))
+for(i in 1:nrow(biome_transform)) {
+  i<-rasterize(biome_transform[i,],emptyraster,getCover=T)
+  i<-getValues(i)
+  biome_cells<-cbind(i,biome_cells)
+}
 
 
 
