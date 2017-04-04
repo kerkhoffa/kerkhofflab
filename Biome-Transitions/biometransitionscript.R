@@ -48,14 +48,17 @@ area
 #second smallest is biome 3 (subtropical and tropical coniferous forests)
 
 #Create list of cells occupied by biomes
-biome_cells<-data.frame(nrow(nrow(biome_transform)))
-for(i in 1:nrow(biome_transform)) {
-  i<-rasterize(biome_transform[i,],emptyraster,getCover=T)
-  i<-getValues(i)
-  biome_cells<-cbind(i,biome_cells)
+biome_cells<-data.frame(Biome=character(),occupied_cells=character(),stringsAsFactors = FALSE)
+for(i in 1:length(unique(biome_transform@data$BIOME))) {
+  biome_i<-biome_transform[biome_transform@data$BIOME==unique(biome_transform@data$BIOME)[i],]
+  biome_id<-unique(biome_transform@data$BIOME)[i]
+  i<-rasterize(biome_i,emptyraster)
+  i<-as.data.frame(na.omit(getValues(i)))
+  biomedata_i<-data.frame(Biome=rep(biome_id,length(i)),occupied_cells=i)
+  biome_cells<-rbind(biomedata_i,biome_cells)
 }
 
 
-#test commit
+
 
 
