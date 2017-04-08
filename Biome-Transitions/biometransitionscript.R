@@ -36,7 +36,8 @@ biome_transform<-spTransform(x = biome,CRSobj = emptyraster@crs)
 plot(emptyraster)
 plot(biome_transform,add=T)
 
-
+plot(biome_transform[biome_transform@data$BIOME=="6",],add=T,col="blue")
+plot(biome_transform[biome_transform@data$BIOME=="1",],add=T,col="green")
 
 #List of biomes and their areas
 area=NULL
@@ -58,6 +59,7 @@ for(i in 1:length(unique(biome_transform@data$BIOME))) {
   biome_cells<-rbind(biomedata_i,biome_cells)
 }
 
+colnames(biome_cells)<-c("Biome","occupied_cells")
 
 
 
