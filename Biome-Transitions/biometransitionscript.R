@@ -53,9 +53,10 @@ biome_cells<-data.frame(Biome=character(),occupied_cells=character(),stringsAsFa
 for(i in 1:length(unique(biome_transform@data$BIOME))) {
   biome_i<-biome_transform[biome_transform@data$BIOME==unique(biome_transform@data$BIOME)[i],]
   biome_id<-unique(biome_transform@data$BIOME)[i]
-  i<-rasterize(biome_i,emptyraster)
-  i<-as.data.frame(na.omit(getValues(i)))
-  biomedata_i<-data.frame(Biome=rep(biome_id,length(i)),occupied_cells=i)
+  biomeraster_i<-rasterize(biome_i,emptyraster)
+  rastervalues_i<-getValues(biomeraster_i)
+  biome_cells_i<-which(!is.na(rastervalues_i))
+  biomedata_i<-data.frame(Biome=rep(biome_id,length(biome_cells_i)),occupied_cells=biome_cells_i)
   biome_cells<-rbind(biomedata_i,biome_cells)
 }
 
