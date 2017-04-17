@@ -54,14 +54,18 @@ for(i in 1:length(unique(biome_transform@data$BIOME))) {
   biome_i<-biome_transform[biome_transform@data$BIOME==unique(biome_transform@data$BIOME)[i],]
   biome_id<-unique(biome_transform@data$BIOME)[i]
   biomeraster_i<-rasterize(biome_i,emptyraster)
-  rastervalues_i<-getValues(biomeraster_i)
-  biome_cells_i<-which(!is.na(rastervalues_i))
+  biome_cells_i<-Which(biomeraster_i>0,cells=TRUE)
   biomedata_i<-data.frame(Biome=rep(biome_id,length(biome_cells_i)),occupied_cells=biome_cells_i)
   biome_cells<-rbind(biomedata_i,biome_cells)
 }
 
 colnames(biome_cells)<-c("Biome","occupied_cells")
 
-
-
+#Add biome numbers to species list
+bien_speciesrange_cells<-bien_8_25_2016_100km_1percent_occurrence_only
+bien_speciesrange_cells$biome<-NA
+for(i in 1:length(bien_speciesrange_cells$biome)){
+  try(bien_speciesrange_cells$biome[i]<-biome_cells$Biome[which(biome_cells$occupied_cells==bien_speciesrange_cells$occupied_cells[i])])
+}
+#finished sometime after 9400...
 
