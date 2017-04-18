@@ -69,3 +69,18 @@ for(i in 1:length(bien_speciesrange_cells$biome)){
 }
 #finished sometime after 9400...
 
+#Create raster with values equal to the cell numbers
+testraster<-setValues(emptyraster,1:ncell(emptyraster))
+plot(testraster)
+
+#Create raster with values equal to the biome numbers
+biomeraster_test<-emptyraster
+for(i in 1:14){
+  biomeraster_test[biome_cells$occupied_cells[which(biome_cells$Biome==i)]]<-i
+}
+
+plot(biomeraster_test)
+
+quercus_bicolor_test<-emptyraster
+quercus_bicolor_test[bien_speciesrange_cells$occupied_cells[which(bien_speciesrange_cells$current_species=="Quercus_bicolor")]]<-20
+plot(quercus_bicolor_test,add=TRUE) #overlays range of Quercus bicolor (makes the scale look weird)
