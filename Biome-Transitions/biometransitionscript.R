@@ -99,6 +99,9 @@ plot(quercus_bicolor_test,add=TRUE) #overlays range of Quercus bicolor (makes th
 
 #tally number of cells for each species in each biome
 speciesbybiome<-tally(current_species~biome, data=bien_speciesrange_cells)
+speciesbybiome<-as.data.frame(speciesbybiome)
+
+
 #Find maximum for each species
 #Divide by sum of frequencies
 #look in tidyr or dplyr to summarize by a variable
@@ -117,9 +120,19 @@ oak_maplebiome<-whiteoak_sugarmaple %>% group_by(current_species) %>%
   summarize(freqbiome=biome[which(Freq==max(Freq))],highfreq=max(Freq),totalcells=sum(Freq))
 
 
+#Now for the whole data set!
+#need to deal with situations with multiple maxima
 
+#This doesn't work because there are ties
+species_biome_frequencies<-as.data.frame(speciesbybiome) %>% group_by(current_species) %>%
+  summarize(freqbiome=biome[which(Freq==max(Freq))],maxfreq=max(Freq),totalcells=sum(Freq))
 
-
-
-
-
+#This works great but doesn't have the total frequencies
+species_biome_frequencies<-as.data.frame(speciesbybiome) %>% group_by(current_species) %>%
+  filter(Freq==max(Freq))
+#Would want to add a column for the sum of all frequencies
+  
+#This adds the biomes tied for the maximum pasted in with commas (maybe not ideal but it works)
+species_biome_frequencies1<-as.data.frame(speciesbybiome) %>% group_by(current_species) %>%
+  summarize(freqbiome = paste(biome[which(Freq == max(Freq))], collapse = ", "),maxfreq=max(Freq),totalcells=sum(Freq))
+#Need to account for situations in which "NA" is the most frequent biome
