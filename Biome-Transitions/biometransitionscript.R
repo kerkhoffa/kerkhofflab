@@ -7,6 +7,7 @@ library(rgeos)
 library(rgdal)
 library(sp)
 library(BIEN)
+library(mosaic)
 
 #import dataset from Brian Maitner
 #rasterized all BIEN range maps
@@ -61,13 +62,21 @@ for(i in 1:length(unique(biome_transform@data$BIOME))) {
 
 colnames(biome_cells)<-c("Biome","occupied_cells")
 
-#Add biome numbers to species list
-bien_speciesrange_cells<-bien_8_25_2016_100km_1percent_occurrence_only
-bien_speciesrange_cells$biome<-NA
-for(i in 1:length(bien_speciesrange_cells$biome)){
-  try(bien_speciesrange_cells$biome[i]<-biome_cells$Biome[which(biome_cells$occupied_cells==bien_speciesrange_cells$occupied_cells[i])])
+# #Add biome numbers to species list
+# bien_speciesrange_cells<-bien_8_25_2016_100km_1percent_occurrence_only
+# bien_speciesrange_cells$biome<-NA
+# for(i in 1:length(bien_speciesrange_cells$biome)){
+#   try(bien_speciesrange_cells$biome[i]<-biome_cells$Biome[which(biome_cells$occupied_cells==bien_speciesrange_cells$occupied_cells[i])])
+# }
+# #finished sometime after 9400...
+
+#Looping on biomes
+for(i in 1:14){
+  biome_cells_i<-biome_cells$occupied_cells[which(biome_cells$Biome==i)]
+  bien_speciesrange_cells$biome[which(is.element(bien_speciesrange_cells$occupied_cells,biome_cells_i))]<-i
 }
-#finished sometime after 9400...
+
+
 
 #Create raster with values equal to the cell numbers
 testraster<-setValues(emptyraster,1:ncell(emptyraster))
@@ -80,7 +89,27 @@ for(i in 1:14){
 }
 
 plot(biomeraster_test)
+plot(biomeraster_test,col=rainbow(14))
+plot(biomeraster_test,col=colorRampPalette(14))
 
 quercus_bicolor_test<-emptyraster
 quercus_bicolor_test[bien_speciesrange_cells$occupied_cells[which(bien_speciesrange_cells$current_species=="Quercus_bicolor")]]<-20
 plot(quercus_bicolor_test,add=TRUE) #overlays range of Quercus bicolor (makes the scale look weird)
+
+
+#tally number of cells for each species in each biome
+speciesbybiome<-tally(current_species~biome, data=bien_speciesrange_cells)
+#Find maximum for each species
+#Divide by sum of frequencies
+#look in tidyr or dplyr to summarize by a variable
+
+
+
+
+
+
+
+
+
+
+
