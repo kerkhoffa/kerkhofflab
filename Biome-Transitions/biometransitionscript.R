@@ -104,7 +104,17 @@ speciesbybiome<-tally(current_species~biome, data=bien_speciesrange_cells)
 #look in tidyr or dplyr to summarize by a variable
 
 
+#Example using just the sugar maple
+sugarmaple<-subset(as.data.frame(speciesbybiome),current_species=="Acer_saccharum")
+#Finding the biome of highest frequency for the sugar maple
+maplebiome<-sugarmaple %>% group_by(current_species) %>%
+  + summarize(freqbiome=biome[which(Freq==max(Freq))],highfreq=max(Freq),totalcells=sum(Freq))
 
+#Example using sugar maple and white oak
+whiteoak_sugarmaple<-subset(as.data.frame(speciesbybiome),(current_species=="Acer_saccharum")|(current_species=="Quercus_alba"))
+#Finding the biome of highest frequency for the sugar maple
+oak_maplebiome<-whiteoak_sugarmaple %>% group_by(current_species) %>%
+  summarize(freqbiome=biome[which(Freq==max(Freq))],highfreq=max(Freq),totalcells=sum(Freq))
 
 
 
