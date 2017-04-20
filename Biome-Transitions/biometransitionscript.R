@@ -123,16 +123,30 @@ oak_maplebiome<-whiteoak_sugarmaple %>% group_by(current_species) %>%
 #Now for the whole data set!
 #need to deal with situations with multiple maxima
 
-#This doesn't work because there are ties
-species_biome_frequencies<-as.data.frame(speciesbybiome) %>% group_by(current_species) %>%
-  summarize(freqbiome=biome[which(Freq==max(Freq))],maxfreq=max(Freq),totalcells=sum(Freq))
-
 #This works great but doesn't have the total frequencies
-species_biome_frequencies<-as.data.frame(speciesbybiome) %>% group_by(current_species) %>%
+species_biome_frequencies<-speciesbybiome %>% group_by(current_species) %>%
   filter(Freq==max(Freq))
 #Would want to add a column for the sum of all frequencies
   
 #This adds the biomes tied for the maximum pasted in with commas (maybe not ideal but it works)
-species_biome_frequencies1<-as.data.frame(speciesbybiome) %>% group_by(current_species) %>%
+species_biome_frequencies1<-speciesbybiome %>% group_by(current_species) %>%
   summarize(freqbiome = paste(biome[which(Freq == max(Freq))], collapse = ", "),maxfreq=max(Freq),totalcells=sum(Freq))
 #Need to account for situations in which "NA" is the most frequent biome
+
+#This gets rid of all of the NAs
+species_biome_frequencies2<-speciesbybiome[which(!is.na(speciesbybiome$biome)),] %>% group_by(current_species) %>%
+  summarize(freqbiome = paste(biome[which(Freq == max(Freq))], collapse = ", "),maxfreq=max(Freq),totalcells=sum(Freq))
+#Add column for the percentage of total cells that fall within the biome of highest frequency
+species_biome_frequencies2$percentage<-species_biome_frequencies2$maxfreq/species_biome_frequencies2$totalcells
+
+#Create a histogram of the percentage of total cells that fall within the biome of highest frequency
+histogram(species_biome_frequencies2$percentage)
+#get rid of all of the ones that are 100%
+histogram(species_biome_frequencies2$percentage,xlim=c(0,0.98),ylim=c(0,2))
+
+
+
+
+
+
+
