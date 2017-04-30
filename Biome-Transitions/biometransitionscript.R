@@ -173,3 +173,23 @@ for(i in 1:14){
 }
 
 plot(biome_richness$richness~biome_richness$Biome)
+
+
+
+#Cheat sheet on data manipulation
+#remove anything with maxfreq of 0
+
+#Extract just species with ties
+#Could choose one at random (and do this repeatedly)
+#Some models account for species in multiple biomes
+
+#boxplot of richness in each biome
+#for species that aren't necessarily in the biome
+
+biome_cells$speciesrichness<-NA
+for(i in 1:length(biome_cells$Biome)){
+  biome_cells$speciesrichness[i]<-length(which(bien_speciesrange_cells$occupied_cells==biome_cells$occupied_cells[i]))
+}
+
+boxplot(biome_cells$speciesrichness~biome_cells$Biome, xlim=c(1,14))
+
