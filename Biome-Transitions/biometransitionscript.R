@@ -160,30 +160,23 @@ species_biome_frequencies_tied<-data.frame(current_species = rep(species_biome_f
 species_biome_frequencies_noties<-species_biome_frequencies[grep(",",species_biome_frequencies$freqbiome,invert = TRUE),]
 
 #bind the ties and not ties into one frequency list
+total_species_biome_frequencies<-rbind(species_biome_frequencies_tied,species_biome_frequencies_noties)
+write.csv(total_species_biome_frequencies,"total_species_biome_frequencies.csv")
+total_species_biome_frequencies <- read_csv("C:/Users/Cecina/OneDrive/Documents/Kenyon College/Kerkhoff Lab/kerkhofflab/Biome-Transitions/total_species_biome_frequencies.csv")
+#unclear why I have to do this but then life works yay!
 
 
 #Want a list of species with max occurrence in each biome
 species_biome_list<-data.frame(Biome=character(),species=character(),stringsAsFactors = FALSE)
-#add in all the species without ties
+#adding all species (tied and not tied)
 for(i in 1:14) {
   print(i)
-  species_list_i<-species_biome_frequencies$current_species[which(species_biome_frequencies$freqbiome==i)]
+  rows_i<-total_species_biome_frequencies[which(total_species_biome_frequencies$freqbiome==i),]
+  species_list_i<-total_species_biome_frequencies$current_species[which(total_species_biome_frequencies$freqbiome==i)]
   species_biome_data_i<-data.frame(Biome=rep(i, length(length(species_list_i))),species=species_list_i)
-  tied_species_list_i<-species_biome_frequencies_tied$current_species[which(species_biome_frequencies_tied$freqbiome==i)]
-  if(length(tied_species_list_i)>0){
-    tied_species_biome_data_i<-data.frame(Biome=rep(i,length(length(tied_species_list_i))),species=tied_species_list_i)
-    all_species_biome_data_i<-rbind(species_biome_data_i,tied_species_biome_data_i)
-  }else {all_species_biome_data_i<-species_biome_data_i}
-  species_biome_list<-rbind(all_species_biome_data_i,species_biome_list)
+  species_biome_list<-rbind(species_biome_data_i,species_biome_list)
 }
 
-
-#add in the species with ties
-for(i in 1:14) {
-  tied_species_list_i<-species_biome_frequencies_tied$current_species[which(species_biome_frequencies_tied$freqbiome==i)]
-  tied_species_biome_data_i<-data.frame(Biome=rep(i, length(length(species_list_i))),species=species_list_i)
-  tied_species_biome_list<-rbind(species_biome_data_i,species_biome_list)
-}
 
 #species richness by biome
 biome_richness<-data.frame(Biome=1:14,richness=numeric(length = 14))
