@@ -125,38 +125,31 @@ oak_maplebiome<-whiteoak_sugarmaple %>% group_by(current_species) %>%
 #Now for the whole data set!
 #need to deal with situations with multiple maxima
 
-#This works great but doesn't have the total frequencies
-species_biome_frequencies2<-speciesbybiome %>% group_by(current_species) %>%
-  filter(Freq==max(Freq))
-#Would want to add a column for the sum of all frequencies
-  
-#This adds the biomes tied for the maximum pasted in with commas (maybe not ideal but it works)
-species_biome_frequencies1<-speciesbybiome %>% group_by(current_species) %>%
-  summarize(freqbiome = paste(biome[which(Freq == max(Freq))], collapse = ", "),maxfreq=max(Freq),totalcells=sum(Freq))
-#Need to account for situations in which "NA" is the most frequent biome
-
 #This gets rid of all of the NAs
 species_biome_frequencies<-speciesbybiome[which(!is.na(speciesbybiome$biome)),] %>% group_by(current_species) %>%
   summarize(freqbiome = paste(biome[which(Freq == max(Freq))], collapse = ", "),maxfreq=max(Freq),totalcells=sum(Freq))
+#get rid of the species that occur in 0 cells
+species_biome_frequencies<-species_biome_frequencies[which(species_biome_frequencies$totalcells!=0)]
 #Add column for the percentage of total cells that fall within the biome of highest frequency
 species_biome_frequencies$percentage<-species_biome_frequencies2$maxfreq/species_biome_frequencies2$totalcells
 
 #Create a histogram of the percentage of total cells that fall within the biome of highest frequency
 histogram(species_biome_frequencies$percentage,xlab="Percent of Cells in Majority Biome", ylab="Percentage of Species")
 histogram(na.omit(species_biome_frequencies$percentage),xlab="Percent of Cells in Majority Biome", ylab="Percentage of Species")
+hist(na.omit(species_biome_frequencies$percentage),xlab="Percent of Cells in Majority Biome", prob=FALSE,col="seagreen",main="",ylab="Number of Species")
 
 #get rid of all of the ones that are 100%
 histogram(species_biome_frequencies$percentage,xlim=c(0,0.98),ylim=c(0,2))
 
-#some species occur in 0 cells
+#2729 species occur in 0 cells
+length(which(species_biome_frequencies$maxfreq==0))
+#remove all species with maximum frequency of 0
+species_biome_frequencies<-species_biome_frequencies[which(species_biome_frequencies$totalcells!=0),]
 
 
 #7278 species exist in multiple biomes
 length(grep(",", species_biome_frequencies$freqbiome))
 
-
-
-#Want a boxplot with the species richnesses per cell for the 14 biomes
 
 #Want a list of species with max occurrence in each biome
 species_biome_list<-data.frame(Biome=character(),species=character(),stringsAsFactors = FALSE)
@@ -191,5 +184,14 @@ for(i in 1:length(biome_cells$Biome)){
   biome_cells$speciesrichness[i]<-length(which(bien_speciesrange_cells$occupied_cells==biome_cells$occupied_cells[i]))
 }
 
-boxplot(biome_cells$speciesrichness~biome_cells$Biome, xlim=c(1,14))
+#boxplot with colors matching the raster plot from earlier
+biomenames<-c("Tropical & Subtropical Moist Broadleaf Forests", "Tropical & Subtropical Dry Broadleaf Forests", "Tropical & Subtropical Coniferous Forests", "Temperate Broadleaf & Mixed Forests", "Temperate Conifer Forests", "Boreal Forests/Taiga", "Tropical & Subtropical Grasslands, Savannas & Shrublands", 
+              "Temperate Grasslands, Savannas, & Shrublands", "Flooded Grasslands & Savannas", "Montane Grasslands & Shrublands", "Tundra", "Mediterranean Forests, Woodlands & Scrub", "Deserts & Xeric Shrublands", "Mangroves","","")
+boxplot(biome_cells$speciesrichness~biome_cells$Biome, xlim=c(1,14),col=rainbow(14),ylab="Species Richness per Cell",names = biomenames)
+
+par(mar=c(14, 4.1, 0.53, 2.1))
+boxplot(biome_cells$speciesrichness~biome_cells$Biome, xlim=c(1,14),col=rainbow(14),ylab="Species Richness per Cell",xaxt="n")
+#axis(1,at = 1:14,labels = FALSE)
+text(x =  seq_along(biomenames), y = par("usr")[3] - 1, srt = 65, adj = 1,
+          labels = biomenames, xpd = TRUE,cex=0.7)
 
