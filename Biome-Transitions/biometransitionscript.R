@@ -92,7 +92,11 @@ for(i in 1:14){
 
 plot(biomeraster_test)
 plot(biomeraster_test,col=rainbow(14))
-plot(biomeraster_test,col=colorRampPalette(14))
+
+#adjusting the legend
+par(mar=c(2,2.5,2,25))
+plot(biomeraster_test,col=rainbow(14),legend = FALSE,xlim=c(-5000200,5000200))
+legend("topright",inset=c(-1.7,0),legend=biomenames[1:14],fill=rainbow(14),xpd=TRUE)
 
 quercus_bicolor_test<-emptyraster
 quercus_bicolor_test[bien_speciesrange_cells$occupied_cells[which(bien_speciesrange_cells$current_species=="Quercus_bicolor")]]<-20
@@ -131,7 +135,7 @@ species_biome_frequencies<-speciesbybiome[which(!is.na(speciesbybiome$biome)),] 
 #get rid of the species that occur in 0 cells
 species_biome_frequencies<-species_biome_frequencies[which(species_biome_frequencies$totalcells!=0)]
 #Add column for the percentage of total cells that fall within the biome of highest frequency
-species_biome_frequencies$percentage<-species_biome_frequencies2$maxfreq/species_biome_frequencies2$totalcells
+species_biome_frequencies$percentage<-species_biome_frequencies$maxfreq/species_biome_frequencies$totalcells
 
 #Create a histogram of the percentage of total cells that fall within the biome of highest frequency
 histogram(species_biome_frequencies$percentage,xlab="Percent of Cells in Majority Biome", ylab="Percentage of Species")

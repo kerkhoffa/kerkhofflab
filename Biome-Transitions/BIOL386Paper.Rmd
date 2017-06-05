@@ -1,0 +1,220 @@
+---
+title: "BIOL 386 Final Paper"
+author: "Cecina Babich Morrow"
+date: "May 12, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+##Introduction
+
+Biomes categorize global plant diversity into regions based on both climatic characteristics and dominant vegetation type (Woodward et al. 2004). Over the course of time, plant species can enter new biomes, either transitioning to a new habitat or expanding their range. These biome shifts can provide information about the assemblage processes that shape plant communities, as well as adaptations possibly enabling species to colonize these new environments (Donoghue and Edwards 2014). Since colonizing new biomes presents challenges in terms of adapting to novel climate constraints, biome transitions are thought to be relatively rare and most likely necessitate changes in functional traits (Kerkhoff et al. 2014). Thus by understanding these biome transition events, we can investigate the relative effects of ecological and evolutionary processes on assembling large-scale plant communities.
+
+This semester, I took the first steps to investigate these transition events using the BIEN plant dataset. In order to study biome transition events, it is first necessary to identify the biomes inhabited by each extant species. I used the range maps of BIEN species in conjunction with maps of biomes to make these assignments. The following document outlines my methods and code to make these assignments, as well as the possibly simplifying assumptions I made along the way. 
+
+```{r,warning=FALSE, message=FALSE}
+library(maptools)
+library(maps)
+library(mapproj)
+library(rgeos)
+library(rgdal)
+library(sp)
+library(BIEN)
+library(mosaic)
+library(raster)
+```
+
+##Species Ranges
+
+Brian Maitner sent me the following dataset, "bien_speciesrange_cells". Tbis dataset includes the cell numbers occupied by each species in the BIEN dataset. These cells came from a 100x100 kilometer raster, here referred to as "emptyraster", in the Lambert Azimuthal equal area projection. Each cell was counted as an occurrence for a species if the range map for that species covered at least 1% of the cell, making this occurrence list a fairly liberal estimate of which species inhabit which cells.
+
+Below are the first 15 rows of this dataset, which gives the species name and the occupied cell numbers.
+
+```{r}
+bien_8_25_2016_100km_1percent_occurrence_only <- read.csv("C:/Users/Cecina/Desktop/plants/bien_8_25_2016_100km_1percent_occurrence_only.csv")
+bien_speciesrange_cells<-bien_8_25_2016_100km_1percent_occurrence_only
+head(bien_speciesrange_cells,15)
+emptyraster<-raster("blank_100km_raster.tif")
+```
+
+
+##Biome Maps
+
+The biome maps used for these analyses were imported from the World Wildlife Federation website. The biome maps needed to be converted into the same projection as the blank raster (Lambert Azimuthal equal area) so that the cell numbers for the biomes would match the cell numbers for the species ranges.
+
+```{r}
+biome<-readOGR(dsn = "C:/Users/Cecina/Desktop/HypervolumeFiles/Terrestrial_Ecoregions",layer ="wwf_terr_ecos" )
+
+#Get projection of the raster
+crs(emptyraster)
+#transform biomes to same projection as the raster
+biome_transform<-spTransform(x = biome,CRSobj = emptyraster@crs)
+```
+
+The resulting transformed biome maps are now in the same projection as the raster and the species range maps. This map shows the WWF biome maps in this projection, which is specialized to reduce distortion in the New World specifically.
+
+```{r}
+plot(emptyraster)
+plot(biome_transform,add=T)
+```
+
+
+After putting the biome maps into the correct projection, I developed a dataset with a list of the cells occupied by each biome in a similar format to the species list. Below are the first 15 rows of this dataframe.
+
+```{r}
+biome_cells<-data.frame(Biome=character(),occupied_cells=character(),stringsAsFactors = FALSE)
+for(i in 1:length(unique(biome_transform@data$BIOME))) {
+  biome_i<-biome_transform[biome_transform@data$BIOME==unique(biome_transform@data$BIOME)[i],]
+  biome_id<-unique(biome_transform@data$BIOME)[i]
+  biomeraster_i<-rasterize(biome_i,emptyraster)
+  biome_cells_i<-Which(biomeraster_i>0,cells=TRUE)
+  biomedata_i<-data.frame(Biome=rep(biome_id,length(biome_cells_i)),occupied_cells=biome_cells_i)
+  biome_cells<-rbind(biomedata_i,biome_cells)
+}
+
+colnames(biome_cells)<-c("Biome","occupied_cells")
+
+head(biome_cells,15)
+```
+
+By setting the value of each raster cell to the number of the biome covering that cell, we can plot the following biome map, where the colors correspond to the biome numbers.
+
+```{r,eval=FALSE}
+biomeraster_test<-emptyraster
+for(i in 1:14){
+  biomeraster_test[biome_cells$occupied_cells[which(biome_cells$Biome==i)]]<-i
+}
+biomenames<-c("Tropical & Subtropical Moist Broadleaf Forests", "Tropical & Subtropical Dry Broadleaf Forests", "Tropical & Subtropical Coniferous Forests", "Temperate Broadleaf & Mixed Forests", "Temperate Conifer Forests", "Boreal Forests/Taiga", "Tropical & Subtropical Grasslands, Savannas & Shrublands", "Temperate Grasslands, Savannas, & Shrublands", "Flooded Grasslands & Savannas", "Montane Grasslands & Shrublands", "Tundra", "Mediterranean Forests, Woodlands & Scrub", "Deserts & Xeric Shrublands", "Mangroves","","")
+par(mar=c(2,2.5,2,25))
+plot(biomeraster_test,col=rainbow(14),legend = FALSE,xlim=c(-5000200,5000200))
+legend("topright",inset=c(-1.7,0),legend=biomenames[1:14],fill=rainbow(14),xpd=TRUE)
+```
+
+![](C:/Users/Cecina/OneDrive/Documents/Kenyon College/Kerkhoff Lab/kerkhofflab/Biome-Transitions/biomemap.png) 
+
+##Species Density in Each Biome
+
+From these cell numbers, I was able to determine the species richness of each cell. Thus each biome had a range of species richnesses in each of the cells occupied by the biome. The following boxplot gives the range of species richness per cell for each biome, with colors corresponding to the map above.
+
+```{r}
+biome_cells$speciesrichness<-NA
+for(i in 1:length(biome_cells$Biome)){
+  biome_cells$speciesrichness[i]<-length(which(bien_speciesrange_cells$occupied_cells==biome_cells$occupied_cells[i]))
+}
+boxplot(biome_cells$speciesrichness~biome_cells$Biome, xlim=c(1,14),col=rainbow(14),ylab="Species Richness per Cell",xaxt="n")
+```
+
+
+##Species Occurrence by Biome
+
+Given the list of cell numbers occupied by both species and occupied by each biome, I was then able to determine the biome for each cell inhabited by the species.
+
+```{r}
+for(i in 1:14){
+  biome_cells_i<-biome_cells$occupied_cells[which(biome_cells$Biome==i)]
+  bien_speciesrange_cells$biome[which(is.element(bien_speciesrange_cells$occupied_cells,biome_cells_i))]<-i
+}
+```
+
+Now bien_species_range_cells has a column for the biome number:
+
+```{r}
+head(bien_speciesrange_cells,15)
+```
+
+
+From this list of biomes in each cell, I determined the total number of cells occupied by each species that lay in each biome.
+
+```{r}
+speciesbybiome<-tally(current_species~biome, data=bien_speciesrange_cells)
+speciesbybiome<-as.data.frame(speciesbybiome)
+head(speciesbybiome,15)
+```
+
+From this dataframe, I determined the biome that covered the greatest number of cells occupied by each species. Some cells were not covered by a biome, resulting in NA. For some species with limited ranges, NA was thus the biome with the highest coverage, so I removed these rows from the dataset in order to determine the actual biome that a species belonged to most frequently. In some cases, multiple biomes tied for the greatest coverage, so both biomes were included in the biome column, separated by a comma.
+
+Finally, I added a column with the percentage of the cells occupied by the species that were within the biome that contained the highest number of cells.
+
+```{r}
+species_biome_frequencies<-speciesbybiome[which(!is.na(speciesbybiome$biome)),] %>% group_by(current_species) %>%
+  summarize(freqbiome = paste(biome[which(Freq == max(Freq))], collapse = ", "),maxfreq=max(Freq),totalcells=sum(Freq))
+#get rid of the species that occur in 0 cells
+species_biome_frequencies<-species_biome_frequencies[which(species_biome_frequencies$totalcells!=0)]
+#Add column for the percentage of total cells that fall within the biome of highest frequency
+species_biome_frequencies$percentage<-species_biome_frequencies$maxfreq/species_biome_frequencies$totalcells
+```
+
+
+The following histogram shows the distribution of percentages of cells in the biome of maximum cell coverage for each species.
+
+```{r}
+hist(na.omit(species_biome_frequencies$percentage),xlab="Percent of Cells in Majority Biome", prob=FALSE,col="seagreen",main="",ylab="Number of Species")
+```
+
+For most species, all of the cells of occurrence fall within the majority biome. This allowed us to feel fairly confident in assigning each species to its biome of maximum coverage.
+
+##Multiple Biomes of Maximum Coverage
+
+7,278 species in the dataset have two or more biomes that cover an equal and maximum number of cells in their range. I extracted these species into their own dataset. 
+
+```{r}
+species_biome_frequencies_tied<-species_biome_frequencies[grep(",", species_biome_frequencies$freqbiome),]
+#split up the column freqbiome by the commas
+split<-strsplit(species_biome_frequencies_tied$freqbiome, split=",")
+species_biome_frequencies_tied<-data.frame(current_species = rep(species_biome_frequencies_tied$current_species, sapply(split, length)), freqbiome = unlist(split), maxfreq = rep(species_biome_frequencies_tied$maxfreq,sapply(split,length)),totalcells = rep(species_biome_frequencies_tied$totalcells,sapply(split,length)))
+head(species_biome_frequencies_tied,15)
+```
+
+I then extracted the species without "ties" (i.e. those with one and only one biome of maximum coverage).
+
+```{r,warning=FALSE}
+species_biome_frequencies_noties<-species_biome_frequencies[grep(",",species_biome_frequencies$freqbiome,invert = TRUE),]
+head(species_biome_frequencies_noties[,1:4],15)
+```
+
+Then I put these two dataframes together into one frequency list with both tied and non-tied species and their biome(s) of maximum coverage.
+
+```{r,eval=FALSE}
+total_species_biome_frequencies<-rbind(species_biome_frequencies_tied,species_biome_frequencies_noties)
+write.csv(total_species_biome_frequencies,"total_species_biome_frequencies.csv")
+```
+```{r}
+total_species_biome_frequencies <- read.csv("C:/Users/Cecina/OneDrive/Documents/Kenyon College/Kerkhoff Lab/kerkhofflab/Biome-Transitions/total_species_biome_frequencies.csv")
+```
+
+##Species List By Biome
+
+Finally, I was able to create a species list for each biome. For each biome, the dataset has a list of all species whose ranges are covered more by that biome than by any other. In the case of ties, species are assigned to all of the biomes covering the maximum number of cells in their ranges.
+
+```{r}
+species_biome_list<-data.frame(Biome=character(),species=character(),stringsAsFactors = FALSE)
+#adding all species (tied and not tied)
+for(i in 1:14) {
+  rows_i<-total_species_biome_frequencies[which(total_species_biome_frequencies$freqbiome==i),]
+  species_list_i<-total_species_biome_frequencies$current_species[which(total_species_biome_frequencies$freqbiome==i)]
+  species_biome_data_i<-data.frame(Biome=rep(i, length(length(species_list_i))),species=species_list_i)
+  species_biome_list<-rbind(species_biome_data_i,species_biome_list)
+}
+```
+
+##Conclusion
+
+I was able to complete my goal of assigning a biome or biomes to each species in the BIEN dataset, which will enable me to reconstruct biome inhabitation over evolutionary time. As part of this next step in the process, I will examine what model of ancestral reconstruction to use--whether one that permits multiple biome assignments or not--and apply it to the BIEN phylogeny. Alternatively, I may select a clade or multiple clades containing species in multiple biomes and having a well-resolved phylogeny on which to perform the reconstruction.
+
+The resulting ancestral reconstruction will permit me to identify nodes at which species have transitioned into novel biomes. These evolutionary events may be correlated with the evolution of new functional traits or tolerances enabling the species to invade a new habitat. Alternatively, certain clades may be better able to radiate into new environments than others. I hope to use my results to investigate the answers to these and other questions over the summer.
+
+
+##Works Cited
+
+Donogue, M.J. & Edwards, E.J. (2014) Biome shifts and niche evolution in plants. Annual Review of Ecology, Evolution, and Systematics, 45, 547-572.
+
+Kerkhoff, A.J., Moriarty, P.E. & Weiser, M.D. (2014). The latitudinal species richness gradient in New World wood angiosperms is consistent with the tropical conservatism hypothesis. Proceedings of the National Academy of Sciences of the United States of America, 111, 8125-8130.
+
+Woodward, F.I., Lomas, M.R., & Kelly, C.K. (2004) Global climate and the distribution of plant biomes. Philosophical Transactions of the Royal Society of London Series B-Biological Sciences, 359, 1465-1476.
+
+
+
